@@ -1,0 +1,122 @@
+﻿{% extends "index.html" %}
+{% load thumbnail %}
+{% load comments %}
+
+{% load i18n cms_tags %}
+
+{% block tpl_id %}tpl_col_two{% endblock %}
+
+  {%block center-col%}
+
+<h3>  {{ event.title }}  </h3> 
+
+{%trans  "فى" %}  {{ event.start_time }} 
+{% if  event.end_time %}
+{%trans "إلى"  %} {{ event.end_time }}
+{% endif %}
+<br/>
+<br/>
+<b> التفاصيل </b>  <br/>
+ {{ event.description }} 
+ 
+
+ <br/>
+
+
+
+<br/>
+<b>الشعارات</b>  {{ event.tags }}     <br/>
+  <b>التصنيف</b>  {{ event.category }}  <br/>
+
+<br/>
+
+
+   <h3> المتحدثون  </h3>
+                    <ul class="list2">
+                 {% for user in  event.featured_people.all %}   
+                      <li><img src="{% thumbnail user.image 40x40 %}"/><b>{{ user.full_name }} </b> {{ user.short_description }} </li>
+                    {% empty %}
+                     لم ينم تحديدهم حتى الآن 
+                  {% endfor %}
+                    </ul>
+                    <br/>
+                    <br/>
+<!-- 
+<h3> Related content </h3> 
+{%for event in related_events %}
+<a href="{{ event.get_absolute_url }}">{{ event.title }}</a>
+
+          <br/>
+{% endfor %}       -->  
+    {%endblock center-col%}
+    
+    
+
+    
+    {% block hero%}
+    
+    {% if event.image  %}
+    <img src="{% thumbnail event.image 1170x200 %}"/>
+    {% else  %}
+     <img src="{{STATIC_URL}}images/hot_event.jpg"/>
+     {% endif%}
+     
+    {% endblock hero%}
+    
+                 {%  block col-center-2%}
+ 
+               <style>
+               .comment input{  float:left; width:50% ;}
+               .comment textarea{  float:left ; width:50% ; height: 55px;}
+               .comment p{   margin-top: 5px;margin-bottom: 5px;} 
+               .comment h1{   margin-top: 5px;margin-bottom: 5px;} 
+                .comment { width: 400px;}
+                #comments p{margin-right : 20px;}
+                #comments {padding: 10px ;}
+                 </style>
+                 
+          
+          
+             <div class="top">
+                <div class="bot">
+                    <div class="comment inner" >
+                  
+                  <!-- add comment    -->   
+            {% get_comment_count for event as comment_count %}
+                    
+            <h3>      {{ comment_count }} تعليقات  </h3>
+
+                {% render_comment_list for event %}
+                    <h3> أضف تعليقاً </h3>
+               {% render_comment_form for event %}
+                 
+                <!-- end comment -->
+
+                
+                  
+             
+                           </div>
+                </div>
+              </div>
+                
+            
+           
+        
+             
+                 {% endblock col-center-2%}
+
+                  {%block right-col-2%}
+                    <div class="img-box">
+                   <center>
+                         <h3>{{LatestEvent.title}}</h3>
+                    <a href="{{ event.get_absolute_url }}"><img src="{% thumbnail LatestEvent.image 180x45 %}" alt="" /></a>   
+                         </center>
+                 <span>{{LatestEvent.short_description}} 
+                    <a href="{{ event.get_absolute_url }}">
+                    <b>اقرأ المزيد</b></a> 
+                    </span>        
+                    </div>
+
+
+            {%endblock right-col-2%}
+                   

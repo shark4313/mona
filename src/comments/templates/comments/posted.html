@@ -1,0 +1,22 @@
+﻿{% extends "index.html" %}
+{% load i18n %}
+
+{%block center-col%}
+
+
+<script type="text/javascript">
+function goBack()
+  {
+    window.name='autoreload';
+    history.go(-1) ;
+  }
+</script>
+
+
+    <h1>{% trans "Thank you for your comment" %}.</h1>
+    <br/>
+    <h1> سيتم اضافة تعليقك بعد قليل</h1>
+    <br/>
+<input type="button" value="الرجوع" onclick="goBack()" />
+ 
+ {% endblock %}

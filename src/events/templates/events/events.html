@@ -1,0 +1,18 @@
+﻿<h3>حدث المؤتمرات</h3><ul class="">
+{% for event in events %}
+<li>
+
+                  <b>  
+                        <a href="{{ event.get_absolute_url }}">
+                                {{ event.title|upper }}
+                      </a>
+                 </b>
+                </br>
+
+    {{ event.short_description}} <br/>
+    {{event.start_time|date:"d M " }} 
+</li>
+
+{% endfor %}
+
+</ul>

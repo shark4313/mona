@@ -1,0 +1,63 @@
+{% extends "index.html" %}
+{% load i18n cms_tags %}
+
+{% block tpl_id %}tpl_col_two{% endblock %}
+
+    {%block left-col-2%}
+        	{% with "220" as width %}
+	    		{% placeholder col_left-2 %}
+			{% endwith %}
+    {%endblock left-col-2%}
+            
+  {%block right-col-2%}
+        	{% with "220" as width %}
+	    		{% placeholder right-col-2%}
+			{% endwith %}
+    {%endblock right-col-2%}
+            
+            
+          {% block col-center-2%}
+          	{% with "220" as width %}
+	    		{% placeholder col-center-2 %}
+			{% endwith %}
+            
+                  {% endblock col-center-2%}
+                  
+                  
+     {%block left-col%}
+		{% include "sidebar_submenu.html" %}	
+
+			{% with "220" as width %}
+	    		{% placeholder col_left %}
+			{% endwith %}
+
+        {%endblock left-col%}
+	
+  {%block center-col%}
+
+			{% with "640" as width %}
+				{% placeholder "col_center"  or%}
+                  There is no content.{% endplaceholder %}
+                    
+			{% endwith %}
+
+    {%endblock center-col%}
+    
+    
+      {%block right-col%}
+
+			{% with "320" as width %}
+				{% placeholder "col_right" or %}
+                There is no content.{% endplaceholder %}
+                    
+			{% endwith %}
+
+    {%endblock right-col%}
+    
+    
+    
+    {% block hero%}
+    		{% with "320" as width %}
+				{% placeholder hero %}
+			{% endwith %}
+    {% endblock hero%}

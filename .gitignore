@@ -1,0 +1,9 @@
+migrations
+apache2
+bin
+lib
+include
+*.pyc
+/media
+
+django.wsgi

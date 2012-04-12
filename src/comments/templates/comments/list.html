@@ -1,0 +1,15 @@
+﻿<dl id="comments">
+  {% for comment in comment_list %}
+    <dt id="c{{ comment.id }}">
+  قال  {{ comment.name }}    فى  {{ comment.submit_date }} 
+    </dt>
+    <dd>
+        <p>{{ comment.comment }}</p>
+    </dd>
+    {%empty%}
+      <dd>
+        <p>No comments </p>
+    </dd>
+        
+  {% endfor %}
+</dl>

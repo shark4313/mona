@@ -1,0 +1,35 @@
+﻿{% extends 'index.html' %}
+
+{% load i18n %}
+
+{% block center-col %}
+<br/>
+	<form class="search" action="/search" method="get">
+                    <input type="text"  name="q" class="text-field"/>
+                    <input type="submit" class="submit" value="submit" />
+    </form>
+    
+<br/>
+<h2> العشائر الموجودة  </h2>
+
+<br/>
+{% for team in teams %}
+
+<a href="/team/{{team.id}}"> {{ team.name}}  {{team.city}} </a>
+
+{%endfor %}
+{% for team in teams1 %}
+
+<a href="/team/{{team.id}}"> {{ team.name}}  {{team.city}} </a>
+
+<br/>
+
+{%endfor %}
+{% for team in teams2 %}
+
+<a href="/team/{{team.id}}"> {{ team.name}}   {{team.city}}  </a>
+
+<br/>
+{%endfor %}
+
+{% endblock center-col %}

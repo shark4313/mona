@@ -1,0 +1,139 @@
+﻿
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block extrastyle %}{{ block.super }}
+<style>
+
+
+
+
+#أنواع{
+display:none;
+}
+
+#المواصفات{
+display:none;
+}
+#خصائص{
+display:none;
+}
+
+</style>
+
+<link rel="stylesheet" type="text/css" href="{% load adminmedia %}{% admin_media_prefix %}css/dashboard.css" />
+
+{% endblock %}
+
+
+{% block coltype %}colMS{% endblock %}
+
+{% block bodyclass %}dashboard{% endblock %}
+
+{% block breadcrumbs %}{% endblock %}
+
+{% block content %}
+<div id="content-main" style="'">
+    
+{% if app_list %}
+    {% for app in app_list %}
+    
+
+        <div class="module" style="">
+        
+        <div class="app_header" id="{{app.name}}" style="color: #000;  " >
+             <a href="{{ app.app_url }}" class="section">{% blocktrans with app.name as name %}{{ name }}{% endblocktrans %}</a>
+        </div>
+
+        {% for model in app.models %}
+            
+            <div  class="app_container_top" id="{{ model.name }}" style="float:right">
+            
+        
+            {% if model.perms.change %}
+        
+                    <div  class="app_container"  style="" >
+                    
+                    <div>
+                       <a href="{{ model.admin_url }}" >
+                       <img src="/static/images/admin_main/{{model.name}}.gif" alt="t1"  width="70" height="70"/>
+                       </a>
+                        
+                 </div >
+                       <div style= "height:15px; padding-right:15px ;">
+                       <a href="{{ model.admin_url }}">{{ model.name }}</a>
+                       </div>
+                       </div>
+            {% else %}
+                       <div  class="app_container"  style="background : #fff    ; " >
+                                    {{ model.name }}
+                       </div>
+ 
+            {% endif %}
+       
+            
+            
+            <div class="options" style="">
+
+            {% if model.perms.add %}
+        
+               <button class="addlink  addButton"  onclick="location.href='{{ model.admin_url }}add/'" style="border-radius : 5px; width:70% ; ">
+                    {% trans 'Add' %}
+              </button>
+            {% else %}
+             
+         
+              
+              
+            {% endif %}
+
+            
+                 </div>
+                   
+           
+             </div>
+        {% endfor %}
+        
+            </div>
+    {% endfor %}
+{% else %}
+    <p>{% trans "You don't have permission to edit anything." %}</p>
+{% endif %}
+</div>
+{% endblock %}
+
+{% block sidebar %}
+<div id="content-related">
+    <div class="module" id="recent-actions-module">
+        <h2>{% trans 'Recent Actions' %}</h2>
+        <h3>{% trans 'My Actions' %}</h3>
+            {% load log %}
+            {% get_admin_log 10 as admin_log for_user user %}
+            {% if not admin_log %}
+            <p>{% trans 'None available' %}</p>
+            {% else %}
+            <ul class="actionlist">
+            {% for entry in admin_log %}
+            <li class="{% if entry.is_addition %}addlink{% endif %}{% if entry.is_change %}changelink{% endif %}{% if entry.is_deletion %}deletelink{% endif %}">
+                {% if entry.is_deletion or not entry.get_admin_url %}
+                    {{ entry.object_repr }}
+                {% else %}
+                    <a href="{{ entry.get_admin_url }}">{{ entry.object_repr }}</a>
+                {% endif %}
+                <br/>
+                {% if entry.content_type %}
+                    <span class="mini quiet">{% filter capfirst %}{% trans entry.content_type.name %}{% endfilter %}</span>
+                {% else %}
+                    <span class="mini quiet">{% trans 'Unknown content' %}</span>
+                {% endif %}
+            </li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+    </div>
+</div>
+{% if user.is_active and user.is_staff %}
+<iframe border="0" src="/charts/" width="475" height="670" style="position: absolute; left: 10px; top: 80px; border: hidden ; z-index : 0">
+</iframe>
+{% endif %}
+{% endblock %}

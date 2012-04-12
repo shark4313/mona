@@ -1,0 +1,25 @@
+﻿{% extends 'index.html' %}
+
+{%load i18n %}
+{% block center-col %}
+<br/>
+<h1> {{team.name}} </h1>
+<br/>
+<br/>
+<br/>
+  <b>العنوان</b> 
+ {{team.address}} <br/>
+ <b> التواصل </b> 
+{{team.contact}}<br/> 
+ <b>المدينة</b> 
+{{team.city}}<br/>
+<br/>
+<h2> الأعضاء
+ </h2>
+{% for user in users%}
+    <a href="/ar/accounts/{{user.user.username}}" > {{user.user.first_name}}  {{user.middle_name}}  {{user.user.last_name}} </a>
+        <br/>
+{%endfor%}
+
+
+{% endblock center-col %}

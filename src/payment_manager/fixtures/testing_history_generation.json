@@ -1,0 +1,42 @@
+[ 
+	{
+		"model": "auth.User", 
+  		"pk": "1",
+  		"fields":{
+			"username": "amrnegm",
+			"email": "amrnegm.01@gmai.com"
+		}
+	},
+	
+	{
+		"model":"auth.User",
+		"pk": "2",
+		"fields":{
+			"username":"kareem",
+			"email":"kareem@gmail.com"
+		}
+	},
+
+	{
+		"model":"users.UserProfile",
+		"pk":"1",
+		"fields":{
+			"user":"1",
+			"middle_name":"fares",
+			"monthly_payment":"50",
+			"paid":"0"
+			
+		}
+	},
+
+	{
+		"model":"users.UserProfile",
+		"pk":"2",
+		"fields":{
+			"user":"2",
+			"middle_name":"3adel",
+			"monthly_payment":"20",
+			"paid":"1"
+		}
+	}
+]

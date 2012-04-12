@@ -1,0 +1,30 @@
+{% load i18n %}
+{% load light %}
+<form action="" method="post">
+	{% trans 'month' %}
+	<input type="text" name="month" />
+	<br/>
+	{% trans 'year' %}
+	<input type="text" name="year" />
+	<br />
+	<input type="submit" value="{% trans 'Submit' %}" />
+</form>
+<br />
+{% if records %}
+<table border="1">
+	<tr>
+		<th>{% trans 'name' %}</th>
+		<th>{% trans 'status of payment' %}</th>
+	</tr>
+	{% for record in records %}
+	<tr>
+		<td>{{ record.user }}</td>
+		{% if record.paid|to_integer == 1 %}
+		<td>{% trans 'paid' %}</td>
+		{% else %}
+		<td>{% trans 'did not pay' %}</td>
+		{% endif %}
+	</tr>
+	{% endfor %}
+</table>
+{% endif %} 

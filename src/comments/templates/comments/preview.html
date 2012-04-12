@@ -1,0 +1,58 @@
+﻿{% extends "index.html" %}
+{% load i18n %}
+
+{%block center-col%}
+
+{% trans "Preview your comment" %}
+
+<style>
+  .errorlist  li{   color:red ; margin-top 15px;} 
+    .comment input{  float:left; width:50% ;}
+    .comment textarea{  width:90% ;}
+    .comment p{   margin-top: 5px;margin-bottom: 5px;} 
+    .comment h1{   margin-top: 5px;margin-bottom: 5px; font-size:16px;}  
+   .comment { width: 400px;}
+             
+</style>
+  {% load comments %}
+   <div class="comment" >
+  <form action="{% comment_form_target %}" method="post">{% csrf_token %}
+    {% if next %}<div><input type="hidden" name="next" value="{{ next }}" /></div>{% endif %}
+    {% if form.errors %}
+    <h1>{% blocktrans count form.errors|length as counter %}Please correct the error below{% plural %}Please correct the errors below{% endblocktrans %}</h1>
+    {% else %}
+    <h1>{% trans "Preview your comment" %}</h1>
+      <blockquote>{{ comment|linebreaks }}</blockquote>
+      <p>
+      {% trans "and" %} <input type="submit" name="submit" class="submit-post" value="{% trans "Post your comment" %}" id="submit" /> {% trans "or make changes" %}:
+      </p>
+    {% endif %}
+    {% for field in form %}
+      {% if field.is_hidden %}
+        <div>{{ field }}</div>
+      {% else %}
+        {% if field.errors %}{{ field.errors }}{% endif %}
+        <p
+          {% if field.errors %} class="error"{% endif %}
+          {% ifequal field.name "honeypot" %} style="display:none;"{% endifequal %}>
+          {{ field.label_tag }} {{ field }}
+        </p>
+      {% endif %}
+    {% endfor %}
+  <p class="submit">
+    <input type="submit" style="padding:10px ; width:100%;" name="post" class="submit-post" value="{% trans 'Post' %}" />
+<!-- <input type="submit" name="preview" class="submit-preview" value="{% trans 'Preview' %}" /> -->
+  </p>
+  </form>
+
+  <script type="text/javascript">
+function goBack()
+  {
+    window.name='autoreload';
+    history.go(-1) ;
+  }
+</script>
+<input type="button" value="الرجوع" onclick="goBack()" />
+  
+    </div>
+{% endblock %}

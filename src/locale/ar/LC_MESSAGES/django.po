@@ -1,0 +1,3149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-30 21:26+0200\n"
+"PO-Revision-Date: 2012-04-11 21:49+0100\n"
+"Last-Translator: a <aa@aa.aa>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5\n"
+
+#: .\settings.py:237
+#, fuzzy
+msgid "Arabic"
+msgstr "عربى"
+
+#: .\settings.py:245
+msgid "two columns"
+msgstr ""
+
+#: .\settings.py:247
+msgid "navigation examples"
+msgstr ""
+
+#: .\captcha\fields.py:25
+msgid "Wrong code!"
+msgstr "كود خطأ"
+
+#: .\cms\cms_toolbar.py:68
+#, fuzzy
+msgid "Edit mode"
+msgstr "حالة التعديل"
+
+#: .\cms\cms_toolbar.py:77
+msgid "django CMS"
+msgstr ""
+
+#: .\cms\cms_toolbar.py:108
+#: .\cms\templates\admin\cms\page\menu_item.html.py:69
+msgid "Publish"
+msgstr "نسخ"
+
+#: .\cms\cms_toolbar.py:112
+msgid "Request Approval"
+msgstr "قبول الطلب"
+
+#: .\cms\cms_toolbar.py:127
+#: .\cms\cms_toolbar.py:136
+msgid "Logout"
+msgstr "خروج"
+
+#: .\cms\cms_toolbar.py:152
+msgid "Template"
+msgstr ""
+
+#: .\cms\cms_toolbar.py:160
+msgid "Move/add Pages"
+msgstr "تحريك / اضافة صفحة"
+
+#: .\cms\cms_toolbar.py:165
+msgid "Add child page"
+msgstr "اضافة صفحة فرعية"
+
+#: .\cms\cms_toolbar.py:171
+msgid "Add sibling page"
+msgstr "اضافة صفحات مشابه"
+
+#: .\cms\cms_toolbar.py:177
+msgid "Delete Page"
+msgstr "حذف الصفحة"
+
+#: .\cms\cms_toolbar.py:180
+#: .\cms\models\moderatormodels.py:45
+#: .\cms\templates\admin\cms\page\permissions.html.py:5
+msgid "Page"
+msgstr "الصفحة"
+
+#: .\cms\cms_toolbar.py:189
+msgid "Site Administration"
+msgstr "ادارة الصفحة"
+
+#: .\cms\cms_toolbar.py:195
+msgid "Page Settings"
+msgstr "خصائص الصفحة"
+
+#: .\cms\cms_toolbar.py:201
+msgid "View History"
+msgstr "View History"
+
+#: .\cms\cms_toolbar.py:205
+msgid "Admin"
+msgstr ""
+
+#: .\cms\plugin_base.py:65
+msgid "Advanced options"
+msgstr "خيارات متقدمة"
+
+#: .\cms\admin\forms.py:59
+#: .\cmsplugin_comments\models.py:7
+msgid "Title"
+msgstr "العنوان"
+
+#: .\cms\admin\forms.py:60
+msgid "The default title"
+msgstr "العنوان الافتراضى"
+
+#: .\cms\admin\forms.py:61
+msgid "Slug"
+msgstr ""
+
+#: .\cms\admin\forms.py:62
+msgid "The part of the title that is used in the URL"
+msgstr "جزء من عنوان الصفحة"
+
+#: .\cms\admin\forms.py:63
+msgid "Language"
+msgstr "اللغة"
+
+#: .\cms\admin\forms.py:64
+msgid "The current language of the content fields."
+msgstr ""
+
+#: .\cms\admin\forms.py:117
+msgid "Another page with this slug already exists"
+msgstr ""
+
+#: .\cms\admin\forms.py:135
+msgid "Menu Title"
+msgstr "عنوان"
+
+#: .\cms\admin\forms.py:136
+msgid "Overwrite what is displayed in the menu"
+msgstr ""
+
+#: .\cms\admin\forms.py:137
+msgid "Page Title"
+msgstr "عنوان الصفحة"
+
+#: .\cms\admin\forms.py:138
+msgid "Overwrites what is displayed at the top of your browser or in bookmarks"
+msgstr ""
+
+#: .\cms\admin\forms.py:139
+msgid "Application"
+msgstr "التطيبق"
+
+#: .\cms\admin\forms.py:141
+msgid "Hook application to this page."
+msgstr "الحق هذا التطبيق بالصفحة"
+
+#: .\cms\admin\forms.py:142
+msgid "Overwrite URL"
+msgstr "استبدل الرابط"
+
+#: .\cms\admin\forms.py:143
+msgid "Keep this field empty if standard path should be used."
+msgstr "اترك الحقل فارغ لو اردت استخدم العنوان الافتراضى"
+
+#: .\cms\admin\forms.py:149
+msgid "Redirect"
+msgstr "اعادة توجيه"
+
+#: .\cms\admin\forms.py:150
+msgid "Redirects to this URL."
+msgstr "اعادة توجيه"
+
+#: .\cms\admin\forms.py:152
+msgid "A description of the page sometimes used by search engines."
+msgstr "وصف الصفحة الذى يستخدم فى محركات البحث"
+
+#: .\cms\admin\forms.py:154
+msgid "A list of comma seperated keywords sometimes used by search engines."
+msgstr ""
+
+#: .\cms\admin\forms.py:170
+msgid "A page with this reverse URL id exists already."
+msgstr ""
+
+#: .\cms\admin\forms.py:178
+msgid "Invalid URL, use /my/url format."
+msgstr "عنوان غير صحيح, use /my/url "
+
+#: .\cms\admin\forms.py:181
+#, python-format
+msgid "Page with redirect url %r already exist"
+msgstr ""
+
+#: .\cms\admin\forms.py:191
+#: .\cms\admin\forms.py:192
+#: .\cms\migrations\0001_initial.py:41
+#: .\cms\models\permissionmodels.py:16
+#: .\comments\models.py:50
+#: .\comments\models.py:168
+#: .\userena\models.py:46
+#: .\userena\tests\profiles\models.py:18
+#: .\userena\tests\profiles\models.py:32
+#: .\users\models.py:66
+msgid "user"
+msgstr "المستخدم"
+
+#: .\cms\admin\forms.py:216
+msgid "Add page permission requires also access to children, or descendants, otherwise added page can't be changed by its creator."
+msgstr ""
+
+#: .\cms\admin\forms.py:221
+msgid "Add page permission also requires edit page permission."
+msgstr ""
+
+#: .\cms\admin\forms.py:248
+msgid "can_view"
+msgstr "تسطيع العرض"
+
+#: .\cms\admin\forms.py:260
+msgid "Please select user or group first."
+msgstr "حدد المستخدم او المجموعة اولا"
+
+#: .\cms\admin\forms.py:267
+#: .\cms\admin\forms.py:274
+#: .\cms\admin\forms.py:278
+#: .\cms\templates\admin\cms\page\change_form.html.py:67
+#: .\cms\templates\admin\cms\page\plugin_change_form.html.py:70
+#: .\cms\templates\cms\toolbar\placeholder.html.py:25
+msgid "Add"
+msgstr "الاضافة"
+
+#: .\cms\admin\forms.py:268
+#: .\cms\admin\forms.py:275
+#: .\cms\admin\forms.py:279
+msgid "Change"
+msgstr "تغير"
+
+#: .\cms\admin\forms.py:269
+#: .\cms\admin\forms.py:276
+#: .\cms\admin\forms.py:280
+#: .\cms\templates\admin\page_submit_line.html.py:5
+#: .\cms\templates\admin\cms\page\menu_item.html.py:44
+msgid "Delete"
+msgstr "حذف"
+
+#: .\cms\admin\forms.py:270
+msgid "Recover (any) pages"
+msgstr "استعادة اي صفحة"
+
+#: .\cms\admin\forms.py:297
+msgid "Notify user"
+msgstr "تعديل مستخدم"
+
+#: .\cms\admin\forms.py:298
+msgid "Send email notification to user about username or password change. Requires user email."
+msgstr ""
+
+#: .\cms\admin\forms.py:318
+msgid "New password"
+msgstr "كلمة سر جديدة"
+
+#: .\cms\admin\forms.py:320
+msgid "New password confirmation"
+msgstr "تأكيد كلمة سر جديدة"
+
+#: .\cms\admin\forms.py:339
+msgid "Email notification requires valid email address."
+msgstr "الايميل يجب ان يكتب بطريقة صحيحة"
+
+#: .\cms\admin\forms.py:341
+msgid "The permission to add new pages requires the permission to change pages!"
+msgstr ""
+
+#: .\cms\admin\forms.py:343
+msgid "The permission to add new users requires the permission to change users!"
+msgstr ""
+
+#: .\cms\admin\forms.py:345
+msgid "To add permissions you also need to edit them!"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:97
+msgid "Basic Settings"
+msgstr "الخصائص الرئيسية"
+
+#: .\cms\admin\pageadmin.py:100
+msgid "Note: This page reloads if you change the selection. Save it first."
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:102
+#: .\cms\admin\pageadmin.py:154
+msgid "Hidden"
+msgstr "اخفاء"
+
+#: .\cms\admin\pageadmin.py:106
+msgid "Advanced Settings"
+msgstr "خصائص متقدمة"
+
+#: .\cms\admin\pageadmin.py:113
+msgid "SEO Settings"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:299
+msgid "You have no permission to change the template"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:485
+msgid "higher"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:655
+msgid "Database error"
+msgstr "خطأ قاعدة البيانات"
+
+#: .\cms\admin\pageadmin.py:855
+msgid "Page was successfully approved."
+msgstr "قد وافق على الصفحة بنجاح"
+
+#: .\cms\admin\pageadmin.py:927
+#, python-format
+msgid "%(name)s object with primary key %(key)r does not exist."
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:933
+msgid "There only exists one translation for this page"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:969
+#, python-format
+msgid "Title and plugins with language %(language)s was deleted"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:991
+msgid "Are you sure?"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1052
+msgid "You do not have permission to publish this page"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1066
+msgid "You do not have permission to change this page's in_navigation status"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1079
+msgid "You have no permission to add a plugin"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1126
+#: .\cms\admin\pageadmin.py:1158
+msgid "Language must be set to a supported language!"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1138
+#, python-format
+msgid "%(plugin_name)s plugin added to %(placeholder)s"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1156
+msgid "You do not have permission to change this page"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1160
+msgid "Language must be different than the copied language!"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1166
+msgid "You do not have permission to add plugins"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1173
+#, python-format
+msgid "Copied %(language)s plugins to %(placeholder)s"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1186
+#: .\cms\admin\pageadmin.py:1294
+#: .\cms\admin\pageadmin.py:1316
+msgid "You have no permission to change this page"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1221
+msgid "You have no permission to edit a plugin"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1256
+#, python-format
+msgid "%(plugin_name)s plugin edited at position %(position)s in %(placeholder)s"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1311
+msgid "You have no permission to move a plugin"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1329
+msgid "Plugins where moved"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1343
+msgid "You have no permission to remove a plugin"
+msgstr ""
+
+#: .\cms\admin\pageadmin.py:1361
+#: .\cms\admin\placeholderadmin.py:292
+#, python-format
+msgid "%(plugin_name)s plugin at position %(position)s in %(placeholder)s was deleted."
+msgstr ""
+
+#: .\cms\admin\permissionadmin.py:73
+msgid "View restriction"
+msgstr ""
+
+#: .\cms\admin\permissionadmin.py:74
+msgid "View restrictions"
+msgstr ""
+
+#: .\cms\admin\permissionadmin.py:134
+#: .\cms\models\permissionmodels.py:75
+msgid "Page permissions"
+msgstr ""
+
+#: .\cms\admin\permissionadmin.py:135
+msgid "User & Group permissions"
+msgstr ""
+
+#: .\cms\admin\permissionadmin.py:136
+msgid "Page permissions management"
+msgstr ""
+
+#: .\cms\admin\placeholderadmin.py:150
+#: .\cms\admin\placeholderadmin.py:191
+msgid "You don't have permission to add content here."
+msgstr ""
+
+#: .\cms\admin\placeholderadmin.py:187
+msgid "You don't have permission to add plugins"
+msgstr ""
+
+#: .\cms\admin\placeholderadmin.py:288
+msgid "You don't have permission to delete a plugin"
+msgstr ""
+
+#: .\cms\admin\useradmin.py:25
+msgid "User details"
+msgstr "تفاصيل المستخدم"
+
+#: .\cms\admin\useradmin.py:26
+msgid "Groups"
+msgstr "المجموعة"
+
+#: .\cms\admin\useradmin.py:36
+#: .\cms\templates\cms\toolbar\items\login.html.py:7
+#: .\userena\forms.py:209
+msgid "Password"
+msgstr "كلمة السر"
+
+#: .\cms\admin\dialog\forms.py:9
+msgid "Copy permissions"
+msgstr "انسخ الصلاحيات"
+
+#: .\cms\admin\dialog\forms.py:16
+msgid "Copy moderation"
+msgstr ""
+
+#: .\cms\conf\patch.py:28
+msgid "Inherit the template of the nearest ancestor"
+msgstr ""
+
+#: .\cms\forms\fields.py:19
+msgid "Select a valid site"
+msgstr "اختر المكان الصحيح"
+
+#: .\cms\forms\fields.py:20
+msgid "Select a valid page"
+msgstr "اختر الصفحة الصحيحة"
+
+#: .\cms\forms\widgets.py:173
+msgid "Add Another"
+msgstr "اضافة اخرى"
+
+#: .\cms\migrations\0001_initial.py:12
+#: .\cms\migrations\0001_initial.py:24
+#: .\cms\migrations\0001_initial.py:75
+#: .\cms\migrations\0003_remove_placeholder.py:18
+#: .\cms\migrations\0010_5char_language.py:12
+#: .\cms\migrations\0010_5char_language.py:15
+#: .\cms\migrations\0010_5char_language.py:22
+#: .\cms\migrations\0010_5char_language.py:25
+#: .\cms\models\pluginmodel.py:83
+#: .\cms\models\titlemodels.py:10
+#: .\cms\plugins\inherit\models.py:11
+#: .\userena\models.py:361
+msgid "language"
+msgstr "اللغة"
+
+#: .\cms\migrations\0001_initial.py:13
+#: .\cms\migrations\0001_initial.py:26
+#: .\cms\migrations\0001_initial.py:40
+#: .\cms\migrations\0001_initial.py:78
+#: .\cms\migrations\0003_remove_placeholder.py:21
+#: .\cms\models\pagemodel.py:103
+#: .\cms\models\permissionmodels.py:69
+#: .\cms\models\titlemodels.py:21
+#: .\cms\plugins\inherit\forms.py:9
+#: .\cms\plugins\link\forms.py:9
+#: .\cms\plugins\link\models.py:12
+#: .\cms\plugins\link\migrations\0001_initial.py:19
+#: .\cms\plugins\picture\models.py:21
+#: .\cms\plugins\teaser\models.py:13
+msgid "page"
+msgstr "الصفحة"
+
+#: .\cms\migrations\0001_initial.py:14
+#: .\cms\migrations\0004_textobjects.py:12
+#: .\cms\migrations\0004_textobjects.py:22
+#: .\cms\models\pluginmodel.py:82
+msgid "position"
+msgstr "الوظيفة"
+
+#: .\cms\migrations\0001_initial.py:15
+#: .\cms\migrations\0001_initial.py:29
+#: .\cms\models\pluginmodel.py:85
+#: .\cms\models\titlemodels.py:22
+msgid "creation date"
+msgstr "تاريخ الانشاء"
+
+#: .\cms\migrations\0001_initial.py:16
+#: .\cms\migrations\0001_initial.py:77
+#: .\cms\migrations\0003_remove_placeholder.py:20
+#: .\cms\models\placeholdermodel.py:11
+msgid "slot"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:18
+#: .\cms\models\pluginmodel.py:84
+msgid "plugin_name"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:25
+#: .\cms\migrations\0011_title_overwrites.py:12
+#: .\cms\migrations\0011_title_overwrites.py:15
+#: .\cms\models\titlemodels.py:11
+#: .\cms\models\titlemodels.py:12
+#: .\cms\models\titlemodels.py:20
+#: .\cms\plugins\file\models.py:25
+#: .\cms\plugins\file\migrations\0001_initial.py:18
+#: .\cms\plugins\teaser\models.py:9
+#: .\cms\plugins\twitter\models.py:6
+#: .\cms\plugins\twitter\models.py:15
+#: .\cms\templates\admin\cms\page\change_list_tree.html.py:6
+#: .\events\models.py:30
+msgid "title"
+msgstr "العنوان"
+
+#: .\cms\migrations\0001_initial.py:28
+msgid "path"
+msgstr "المسار"
+
+#: .\cms\migrations\0001_initial.py:30
+#: .\cms\models\titlemodels.py:13
+msgid "slug"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:36
+msgid "everybody"
+msgstr "الجميع"
+
+#: .\cms\migrations\0001_initial.py:37
+#: .\cms\models\permissionmodels.py:20
+msgid "can edit"
+msgstr "تسطيع التعديل"
+
+#: .\cms\migrations\0001_initial.py:38
+#: .\cms\models\permissionmodels.py:17
+msgid "group"
+msgstr "الجروب"
+
+#: .\cms\migrations\0001_initial.py:39
+#: .\cms\models\permissionmodels.py:24
+msgid "can publish"
+msgstr "تستطيع النشر"
+
+#: .\cms\migrations\0001_initial.py:42
+msgid "type"
+msgstr "النوع"
+
+#: .\cms\migrations\0001_initial.py:44
+msgid "can change soft-root"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:50
+#: .\cms\migrations\0006_apphook.py:34
+#: .\cms\migrations\0006_apphook.py:62
+msgid "status"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:53
+msgid "navigation extenders"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:54
+#: .\cms\migrations\0006_apphook.py:12
+#: .\cms\migrations\0006_apphook.py:46
+#: .\cms\models\titlemodels.py:15
+msgid "has url overwrite"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:55
+#: .\cms\migrations\0006_apphook.py:49
+msgid "url overwrite"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:57
+msgid "author"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:58
+#: .\cms\migrations\0006_apphook.py:37
+msgid "reverse url id"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:59
+#: .\cms\models\pagemodel.py:83
+msgid "login required"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:60
+#: .\cms\models\pagemodel.py:68
+msgid "soft root"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:63
+#: .\cms\models\pagemodel.py:66
+msgid "publication end date"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:64
+#: .\cms\models\pagemodel.py:73
+#: .\cms\plugins\snippet\models.py:14
+msgid "template"
+msgstr "قالب"
+
+#: .\cms\migrations\0001_initial.py:66
+#: .\cms\models\pagemodel.py:65
+msgid "publication date"
+msgstr ""
+
+#: .\cms\migrations\0001_initial.py:67
+#: .\cms\models\pagemodel.py:67
+#: .\cms\templates\admin\cms\page\change_list_tree.html.py:9
+msgid "in navigation"
+msgstr ""
+
+#: .\cms\migrations\0006_apphook.py:15
+#: .\cms\migrations\0007_apphook_longer.py:11
+#: .\cms\migrations\0007_apphook_longer.py:17
+#: .\cms\models\titlemodels.py:16
+msgid "application"
+msgstr ""
+
+#: .\cms\migrations\0006_apphook.py:65
+#: .\cms\models\pagemodel.py:69
+msgid "id"
+msgstr "الرقم"
+
+#: .\cms\migrations\0008_redirects.py:11
+#: .\cms\models\titlemodels.py:17
+msgid "redirect"
+msgstr ""
+
+#: .\cms\migrations\0009_added_meta_fields.py:12
+#: .\cms\models\titlemodels.py:19
+msgid "keywords"
+msgstr "الكلمات"
+
+#: .\cms\migrations\0009_added_meta_fields.py:15
+#: .\cms\models\titlemodels.py:18
+#: .\cms\plugins\teaser\models.py:20
+msgid "description"
+msgstr "الوصف"
+
+#: .\cms\models\moderatormodels.py:25
+msgid "Current page"
+msgstr "الصفحة الحالية"
+
+#: .\cms\models\moderatormodels.py:26
+msgid "Page children (immediate)"
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:27
+msgid "Page and children (immediate)"
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:28
+msgid "Page descendants"
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:29
+msgid "Page and descendants"
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:46
+#: .\cms\templates\admin\cms\page\moderation_messages.html.py:6
+#: .\cms\templates\admin\cms\page\permissions.html.py:6
+msgid "User"
+msgstr "المستخدم"
+
+#: .\cms\models\moderatormodels.py:50
+#: .\cms\templatetags\cms_admin.py:107
+msgid "Moderate page"
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:51
+#: .\cms\templatetags\cms_admin.py:108
+msgid "Moderate children"
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:52
+#: .\cms\templatetags\cms_admin.py:109
+msgid "Moderate descendants"
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:55
+#: .\cms\models\moderatormodels.py:56
+msgid "PageModerator"
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:99
+msgid "created"
+msgstr "انشاء"
+
+#: .\cms\models\moderatormodels.py:100
+#: .\cms\models\pagemodel.py:43
+msgid "changed"
+msgstr "تغير"
+
+#: .\cms\models\moderatormodels.py:101
+msgid "delete req."
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:102
+msgid "move req."
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:103
+msgid "publish req."
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:104
+msgid "unpublish req."
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:105
+#: .\cms\models\pagemodel.py:46
+#: .\comments\admin.py:47
+msgid "approved"
+msgstr "موافق"
+
+#: .\cms\models\moderatormodels.py:117
+msgid "Page moderator state"
+msgstr ""
+
+#: .\cms\models\moderatormodels.py:118
+msgid "Page moderator states"
+msgstr ""
+
+#: .\cms\models\pagemodel.py:44
+msgid "req. app."
+msgstr ""
+
+#: .\cms\models\pagemodel.py:45
+#: .\cms\templates\admin\cms\page\menu_item.html.py:44
+#: .\cms\templates\cms\toolbar\toolbar.html.py:57
+#: .\cms\utils\moderator.py:90
+msgid "delete"
+msgstr "حذف"
+
+#: .\cms\models\pagemodel.py:47
+msgid "app. par."
+msgstr ""
+
+#: .\cms\models\pagemodel.py:51
+msgid "for logged in users only"
+msgstr "الدخول للمستخدم فقط"
+
+#: .\cms\models\pagemodel.py:52
+msgid "for anonymous users only"
+msgstr "الدخول للمستخدم الزائر فقط"
+
+#: .\cms\models\pagemodel.py:60
+msgid "created by"
+msgstr "انشاء بواسطة"
+
+#: .\cms\models\pagemodel.py:61
+#: .\cms\templates\admin\cms\page\change_list_tree.html.py:20
+msgid "changed by"
+msgstr "تغير بواسطة"
+
+#: .\cms\models\pagemodel.py:65
+msgid "When the page should go live. Status must be \"Published\" for page to go live."
+msgstr ""
+
+#: .\cms\models\pagemodel.py:66
+msgid "When to expire the page. Leave empty to never expire."
+msgstr ""
+
+#: .\cms\models\pagemodel.py:68
+msgid "All ancestors will not be displayed in the navigation"
+msgstr ""
+
+#: .\cms\models\pagemodel.py:69
+msgid "An unique identifier that is used with the page_url templatetag for linking to this page"
+msgstr ""
+
+#: .\cms\models\pagemodel.py:70
+msgid "attached menu"
+msgstr ""
+
+#: .\cms\models\pagemodel.py:71
+msgid "is published"
+msgstr "يتم النشر"
+
+#: .\cms\models\pagemodel.py:73
+msgid "The template used to render the content."
+msgstr ""
+
+#: .\cms\models\pagemodel.py:74
+msgid "The site the page is accessible at."
+msgstr ""
+
+#: .\cms\models\pagemodel.py:74
+msgid "site"
+msgstr ""
+
+#: .\cms\models\pagemodel.py:76
+msgid "moderator state"
+msgstr ""
+
+#: .\cms\models\pagemodel.py:84
+msgid "menu visibility"
+msgstr ""
+
+#: .\cms\models\pagemodel.py:84
+msgid "limit when this page is visible in the menu"
+msgstr ""
+
+#: .\cms\models\pagemodel.py:104
+msgid "pages"
+msgstr "الصفحات"
+
+#: .\cms\models\pagemodel.py:266
+msgid "Page was copied."
+msgstr "الصفحة تم نسخها"
+
+#: .\cms\models\pagemodel.py:678
+msgid "default"
+msgstr "افتراضى"
+
+#: .\cms\models\permissionmodels.py:21
+msgid "can add"
+msgstr "يمكن الاضافة"
+
+#: .\cms\models\permissionmodels.py:22
+msgid "can delete"
+msgstr "يمكن الحذف"
+
+#: .\cms\models\permissionmodels.py:23
+msgid "can change advanced settings"
+msgstr ""
+
+#: .\cms\models\permissionmodels.py:25
+msgid "can change permissions"
+msgstr "يمكن تغير الصلاحيات"
+
+#: .\cms\models\permissionmodels.py:25
+msgid "on page level"
+msgstr "فى مستوى الصفحة"
+
+#: .\cms\models\permissionmodels.py:26
+msgid "can move"
+msgstr "يمكن تحريك"
+
+#: .\cms\models\permissionmodels.py:27
+msgid "can moderate"
+msgstr ""
+
+#: .\cms\models\permissionmodels.py:28
+msgid "view restricted"
+msgstr ""
+
+#: .\cms\models\permissionmodels.py:28
+msgid "frontend view restriction"
+msgstr ""
+
+#: .\cms\models\permissionmodels.py:51
+msgid "can recover pages"
+msgstr ""
+
+#: .\cms\models\permissionmodels.py:51
+msgid "can recover any deleted page"
+msgstr ""
+
+#: .\cms\models\permissionmodels.py:52
+msgid "If none selected, user haves granted permissions to all sites."
+msgstr ""
+
+#: .\cms\models\permissionmodels.py:52
+msgid "sites"
+msgstr ""
+
+#: .\cms\models\permissionmodels.py:57
+msgid "Page global permission"
+msgstr "صفحة شاملة الصفحات"
+
+#: .\cms\models\permissionmodels.py:58
+msgid "Pages global permissions"
+msgstr "صفحات شاملة الصلاحيات"
+
+#: .\cms\models\permissionmodels.py:68
+#: .\cms\templates\admin\cms\page\permissions.html.py:15
+msgid "Grant on"
+msgstr ""
+
+#: .\cms\models\permissionmodels.py:74
+msgid "Page permission"
+msgstr "صلاحيات الصفحة"
+
+#: .\cms\models\permissionmodels.py:89
+msgid "User (page)"
+msgstr "صفحة المستخدم"
+
+#: .\cms\models\permissionmodels.py:90
+msgid "Users (page)"
+msgstr ""
+
+#: .\cms\models\permissionmodels.py:100
+msgid "User group (page)"
+msgstr ""
+
+#: .\cms\models\permissionmodels.py:101
+msgid "User groups (page)"
+msgstr ""
+
+#: .\cms\models\placeholdermodel.py:12
+#: .\cms\plugins\flash\models.py:9
+#: .\cms\plugins\flash\migrations\0001_initial.py:16
+#: .\cms\plugins\video\models.py:13
+msgid "width"
+msgstr ""
+
+#: .\cms\models\pluginmodel.py:144
+msgid "<Empty>"
+msgstr "فارغ"
+
+#: .\cms\models\titlemodels.py:12
+msgid "overwrite the title in the menu"
+msgstr ""
+
+#: .\cms\models\titlemodels.py:14
+msgid "Path"
+msgstr "المسار"
+
+#: .\cms\models\titlemodels.py:20
+msgid "overwrite the title (html title tag)"
+msgstr ""
+
+#: .\cms\plugins\file\cms_plugins.py:9
+msgid "File"
+msgstr ""
+
+#: .\cms\plugins\file\models.py:24
+#: .\cms\plugins\file\migrations\0001_initial.py:17
+#: .\cms\plugins\flash\models.py:8
+#: .\cms\plugins\flash\migrations\0001_initial.py:18
+msgid "file"
+msgstr ""
+
+#: .\cms\plugins\file\templates\cms\plugins\file.html.py:6
+msgid "file missing!"
+msgstr ""
+
+#: .\cms\plugins\flash\cms_plugins.py:9
+msgid "Flash"
+msgstr ""
+
+#: .\cms\plugins\flash\models.py:8
+msgid "use swf file"
+msgstr ""
+
+#: .\cms\plugins\flash\models.py:10
+#: .\cms\plugins\flash\migrations\0001_initial.py:19
+#: .\cms\plugins\video\models.py:14
+msgid "height"
+msgstr ""
+
+#: .\cms\plugins\flash\templates\cms\plugins\flash.html.py:40
+#: .\cms\plugins\video\templates\cms\plugins\video.html.py:60
+#: .\sampleapp\templates\cms\plugins\video.html.py:60
+msgid "Missing flash plugin. Please download the latest Adobe Flash Player: "
+msgstr ""
+
+#: .\cms\plugins\flash\templates\cms\plugins\flash.html.py:42
+#: .\cms\plugins\video\templates\cms\plugins\video.html.py:62
+#: .\sampleapp\templates\cms\plugins\video.html.py:62
+msgid "Get Adobe Flash Player"
+msgstr ""
+
+#: .\cms\plugins\googlemap\cms_plugins.py:10
+msgid "Google Map"
+msgstr ""
+
+#: .\cms\plugins\googlemap\models.py:9
+msgid "map title"
+msgstr ""
+
+#: .\cms\plugins\googlemap\models.py:11
+msgid "address"
+msgstr ""
+
+#: .\cms\plugins\googlemap\models.py:12
+msgid "zip code"
+msgstr ""
+
+#: .\cms\plugins\googlemap\models.py:13
+msgid "city"
+msgstr ""
+
+#: .\cms\plugins\googlemap\models.py:15
+msgid "additional content"
+msgstr "محتويات اضافية"
+
+#: .\cms\plugins\googlemap\models.py:16
+msgid "zoom level"
+msgstr ""
+
+#: .\cms\plugins\googlemap\models.py:18
+msgid "latitude"
+msgstr ""
+
+#: .\cms\plugins\googlemap\models.py:19
+msgid "Use latitude & longitude to fine tune the map possiton."
+msgstr ""
+
+#: .\cms\plugins\googlemap\models.py:20
+msgid "longitude"
+msgstr ""
+
+#: .\cms\plugins\googlemap\models.py:22
+msgid "route planer title"
+msgstr ""
+
+#: .\cms\plugins\googlemap\models.py:22
+msgid "Calculate your fastest way to here"
+msgstr ""
+
+#: .\cms\plugins\googlemap\models.py:23
+msgid "route planer"
+msgstr ""
+
+#: .\cms\plugins\googlemap\models.py:30
+msgid "Map"
+msgstr ""
+
+#: .\cms\plugins\googlemap\templates\cms\plugins\googlemap.html.py:76
+msgid "Your address: "
+msgstr "عشيرة"
+
+#: .\cms\plugins\googlemap\templates\cms\plugins\googlemap.html.py:78
+msgid "Calculate route"
+msgstr ""
+
+#: .\cms\plugins\inherit\cms_plugins.py:17
+msgid "Inherit Plugins from Page"
+msgstr ""
+
+#: .\cms\plugins\inherit\forms.py:23
+msgid "Language or Page must be filled out"
+msgstr ""
+
+#: .\cms\plugins\inherit\models.py:10
+msgid "Choose a page to include its plugins into this placeholder, empty will choose current page"
+msgstr ""
+
+#: .\cms\plugins\inherit\models.py:11
+msgid "Optional: the language of the plugins you want"
+msgstr ""
+
+#: .\cms\plugins\link\cms_plugins.py:12
+msgid "Link"
+msgstr ""
+
+#: .\cms\plugins\link\models.py:10
+#: .\cms\plugins\link\migrations\0001_initial.py:18
+#: .\cms\plugins\link\migrations\0004_larger_link_names.py:11
+#: .\cms\plugins\link\migrations\0004_larger_link_names.py:17
+#: .\cms\plugins\snippet\models.py:12
+#: .\cms\plugins\snippet\migrations\0001_initial.py:17
+msgid "name"
+msgstr ""
+
+#: .\cms\plugins\link\models.py:11
+#: .\cms\plugins\link\migrations\0001_initial.py:16
+#: .\cms\plugins\picture\models.py:20
+#: .\cms\plugins\picture\migrations\0001_initial.py:16
+#: .\cms\plugins\teaser\models.py:19
+msgid "link"
+msgstr ""
+
+#: .\cms\plugins\link\models.py:12
+msgid "A link to a page has priority over a text link."
+msgstr ""
+
+#: .\cms\plugins\link\models.py:13
+msgid "mailto"
+msgstr ""
+
+#: .\cms\plugins\link\models.py:13
+msgid "An email adress has priority over a text link."
+msgstr ""
+
+#: .\cms\plugins\picture\cms_plugins.py:9
+msgid "Picture"
+msgstr ""
+
+#: .\cms\plugins\picture\models.py:14
+msgid "center"
+msgstr ""
+
+#: .\cms\plugins\picture\models.py:15
+msgid "left"
+msgstr ""
+
+#: .\cms\plugins\picture\models.py:16
+msgid "right"
+msgstr ""
+
+#: .\cms\plugins\picture\models.py:19
+#: .\cms\plugins\picture\migrations\0001_initial.py:17
+#: .\cms\plugins\teaser\models.py:10
+#: .\cms\plugins\video\models.py:11
+msgid "image"
+msgstr ""
+
+#: .\cms\plugins\picture\models.py:20
+#: .\cms\plugins\picture\models.py:21
+#: .\events\models.py:65
+msgid "if present image will be clickable"
+msgstr ""
+
+#: .\cms\plugins\picture\models.py:22
+#: .\cms\plugins\picture\migrations\0001_initial.py:19
+msgid "alternate text"
+msgstr ""
+
+#: .\cms\plugins\picture\models.py:22
+msgid "textual description of the image"
+msgstr ""
+
+#: .\cms\plugins\picture\models.py:23
+msgid "long description"
+msgstr ""
+
+#: .\cms\plugins\picture\models.py:23
+msgid "additional description of the image"
+msgstr "اضافة وصف للصورة"
+
+#: .\cms\plugins\picture\models.py:24
+msgid "side"
+msgstr ""
+
+#: .\cms\plugins\picture\models.py:25
+#: .\events\models.py:35
+msgid "Is public"
+msgstr "عام"
+
+#: .\cms\plugins\picture\models.py:26
+#: .\events\models.py:44
+#: .\events\models.py:68
+msgid "Created in"
+msgstr ""
+
+#: .\cms\plugins\snippet\cms_plugins.py:12
+#: .\cms\plugins\snippet\models.py:24
+#: .\cms\plugins\snippet\models.py:32
+msgid "Snippet"
+msgstr ""
+
+#: .\cms\plugins\snippet\cms_plugins.py:30
+#, python-format
+msgid "Template %(template)s does not exist."
+msgstr ""
+
+#: .\cms\plugins\snippet\models.py:13
+#: .\cms\plugins\snippet\migrations\0001_initial.py:18
+msgid "HTML"
+msgstr ""
+
+#: .\cms\plugins\snippet\models.py:15
+msgid "Enter a template (i.e. \"snippets/plugin_xy.html\") which will be rendered. "
+msgstr ""
+
+#: .\cms\plugins\snippet\models.py:25
+msgid "Snippets"
+msgstr ""
+
+#: .\cms\plugins\teaser\cms_plugins.py:8
+msgid "Teaser"
+msgstr ""
+
+#: .\cms\plugins\teaser\models.py:14
+msgid "If present image will be clickable"
+msgstr ""
+
+#: .\cms\plugins\teaser\models.py:19
+msgid "If present image will be clickable."
+msgstr ""
+
+#: .\cms\plugins\teaser\templates\cms\plugins\teaser.html.py:11
+#: .\cms\templates\cms\toolbar\toolbar.html.py:59
+msgid "more"
+msgstr ""
+
+#: .\cms\plugins\text\cms_plugins.py:15
+msgid "Text"
+msgstr ""
+
+#: .\cms\plugins\text\models.py:14
+#: .\cms\plugins\text\migrations\0001_initial.py:16
+#: .\userena\contrib\umessages\models.py:90
+msgid "body"
+msgstr ""
+
+#: .\cms\plugins\text\templates\cms\plugins\widgets\tinymce.html.py:30
+msgid "Plugins"
+msgstr ""
+
+#: .\cms\plugins\text\templates\cms\plugins\widgets\tinymce.html.py:38
+#: .\cms\plugins\text\templates\cms\plugins\widgets\tinymce.html.py:106
+#: .\cms\plugins\text\templates\cms\plugins\widgets\wymeditor.html.py:68
+msgid "Please select a plugin type."
+msgstr ""
+
+#: .\cms\plugins\text\templates\cms\plugins\widgets\tinymce.html.py:54
+#: .\cms\plugins\text\templates\cms\plugins\widgets\wymeditor.html.py:111
+msgid "Edit selected plugin"
+msgstr ""
+
+#: .\cms\plugins\text\templates\cms\plugins\widgets\tinymce.html.py:58
+#: .\cms\plugins\text\templates\cms\plugins\widgets\tinymce.html.py:124
+#: .\cms\plugins\text\templates\cms\plugins\widgets\wymeditor.html.py:86
+msgid "Text editor does not support editing objects."
+msgstr ""
+
+#: .\cms\plugins\text\templates\cms\plugins\widgets\tinymce.html.py:63
+#: .\cms\plugins\text\templates\cms\plugins\widgets\tinymce.html.py:129
+#: .\cms\plugins\text\templates\cms\plugins\widgets\wymeditor.html.py:91
+msgid "No object selected."
+msgstr ""
+
+#: .\cms\plugins\text\templates\cms\plugins\widgets\tinymce.html.py:112
+#: .\cms\plugins\text\templates\cms\plugins\widgets\wymeditor.html.py:74
+msgid "Text editor does not support inserting objects."
+msgstr ""
+
+#: .\cms\plugins\text\templates\cms\plugins\widgets\tinymce.html.py:133
+#: .\cms\plugins\text\templates\cms\plugins\widgets\wymeditor.html.py:95
+msgid "Not a plugin object"
+msgstr ""
+
+#: .\cms\plugins\text\templates\cms\plugins\widgets\wymeditor.html.py:107
+#: .\cms\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:4
+msgid "Available Plugins"
+msgstr ""
+
+#: .\cms\plugins\text\templates\cms\plugins\widgets\wymeditor.html.py:110
+msgid "Insert plugin"
+msgstr ""
+
+#: .\cms\plugins\twitter\cms_plugins.py:10
+#: .\users\models.py:77
+msgid "Twitter"
+msgstr ""
+
+#: .\cms\plugins\twitter\cms_plugins.py:23
+msgid "Twitter Search"
+msgstr ""
+
+#: .\cms\plugins\twitter\models.py:7
+msgid "twitter user"
+msgstr ""
+
+#: .\cms\plugins\twitter\models.py:8
+#: .\cms\plugins\twitter\models.py:17
+msgid "count"
+msgstr ""
+
+#: .\cms\plugins\twitter\models.py:8
+#: .\cms\plugins\twitter\models.py:17
+msgid "Number of entries to display"
+msgstr ""
+
+#: .\cms\plugins\twitter\models.py:9
+msgid "link hint"
+msgstr ""
+
+#: .\cms\plugins\twitter\models.py:9
+msgid "If given, the hint is displayed as link to your Twitter profile."
+msgstr ""
+
+#: .\cms\plugins\twitter\models.py:16
+msgid "query"
+msgstr ""
+
+#: .\cms\plugins\twitter\models.py:16
+msgid "Example: \"brains AND zombies AND from:umbrella AND to:nemesis\": tweets from the user \"umbrella\" to the user \"nemesis\" that contain the words \"brains\" and \"zombies\""
+msgstr ""
+
+#: .\cms\plugins\twitter\templates\cms\plugins\twitter_recent_entries.html.py:15
+msgid "we said,"
+msgstr " "
+
+#: .\cms\plugins\twitter\templates\cms\plugins\twitter_recent_entries.html.py:16
+msgid "we"
+msgstr "نحن"
+
+#: .\cms\plugins\twitter\templates\cms\plugins\twitter_recent_entries.html.py:17
+msgid "we were"
+msgstr "كنا فى "
+
+#: .\cms\plugins\twitter\templates\cms\plugins\twitter_recent_entries.html.py:18
+msgid "we replied to"
+msgstr "تم الرد على"
+
+#: .\cms\plugins\twitter\templates\cms\plugins\twitter_recent_entries.html.py:19
+msgid "we were checking out"
+msgstr ""
+
+#: .\cms\plugins\twitter\templates\cms\plugins\twitter_recent_entries.html.py:20
+msgid "loading tweets..."
+msgstr ""
+
+#: .\cms\plugins\video\cms_plugins.py:10
+msgid "Video"
+msgstr ""
+
+#: .\cms\plugins\video\cms_plugins.py:42
+msgid "Color Settings"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:9
+msgid "movie file"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:9
+msgid "use .flv file or h264 encoded video file"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:10
+msgid "movie url"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:10
+msgid "vimeo or youtube video url. Example: http://www.youtube.com/watch?v=-iJ7bs4mTUY"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:11
+msgid "preview image file"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:16
+msgid "auto play"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:17
+msgid "auto hide"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:18
+msgid "fullscreen"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:19
+msgid "loop"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:22
+msgid "background color"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:22
+#: .\cms\plugins\video\models.py:23
+#: .\cms\plugins\video\models.py:24
+#: .\cms\plugins\video\models.py:25
+#: .\cms\plugins\video\models.py:26
+#: .\cms\plugins\video\models.py:27
+#: .\cms\plugins\video\models.py:28
+#: .\cms\plugins\video\models.py:29
+msgid "Hexadecimal, eg ff00cc"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:23
+msgid "text color"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:24
+msgid "seekbar color"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:25
+msgid "seekbar bg color"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:26
+msgid "loadingbar color"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:27
+msgid "button out color"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:28
+msgid "button over color"
+msgstr ""
+
+#: .\cms\plugins\video\models.py:29
+msgid "button highlight color"
+msgstr ""
+
+#: .\cms\templates\admin\page_submit_line.html.py:3
+#: .\cms\templates\admin\cms\page\change_form.html.py:274
+#: .\cms\templates\admin\cms\page\plugin_change_form.html.py:113
+msgid "Save"
+msgstr ""
+
+#: .\cms\templates\admin\page_submit_line.html.py:7
+#, python-format
+msgid "Delete %(language)s translation"
+msgstr ""
+
+#: .\cms\templates\admin\page_submit_line.html.py:11
+msgid "Save as new"
+msgstr ""
+
+#: .\cms\templates\admin\page_submit_line.html.py:12
+msgid "Save and add another"
+msgstr ""
+
+#: .\cms\templates\admin\page_submit_line.html.py:13
+#: .\cms\templates\admin\cms\page\change_form.html.py:275
+msgid "Save and continue editing"
+msgstr ""
+
+#: .\cms\templates\admin\cms\mail\approvement_required.html.py:5
+#, python-format
+msgid "Page <a href=\"%(admin_url)s\">%(page)s</a> may require approvement by you."
+msgstr ""
+
+#: .\cms\templates\admin\cms\mail\approvement_required.html.py:8
+msgid "Last changes"
+msgstr ""
+
+#: .\cms\templates\admin\cms\mail\base.html.py:55
+#, python-format
+msgid "Log in to administration <a href=\"%(login_url)s\">here</a>."
+msgstr ""
+
+#: .\cms\templates\admin\cms\mail\page_user_change.html.py:7
+msgid "Username:"
+msgstr "اسم المستخدم:"
+
+#: .\cms\templates\admin\cms\mail\page_user_change.html.py:11
+msgid "Password:"
+msgstr "كلمة المرور"
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:3
+#: .\cms\templates\admin\cms\page\plugin_forms_history.html.py:3
+#: .\cms\templates\admin\cms\page\plugin_forms_ok.html.py:4
+msgid "Change a page"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:64
+#: .\cms\templates\admin\cms\page\change_list.html.py:8
+#: .\cms\templates\admin\cms\page\plugin_change_form.html.py:67
+#: .\cms\templates\admin\cms\page\recover_form.html.py:14
+#: .\cms\templates\admin\cms\page\revision_form.html.py:6
+msgid "Home"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:73
+msgid "Approve page deletion"
+msgstr "السماح بحذف الصفحة"
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:79
+#, python-format
+msgid "(requires approvement at %(moderation_level)s level)"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:80
+msgid "(you can perform actions on this page directly)"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:93
+msgid "Remove delete request"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:95
+msgid "Approve delete"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:95
+#: .\comments\templates\comments\approve.html.py:12
+msgid "Approve"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:95
+#: .\cms\templates\admin\cms\page\change_form.html.py:96
+#: .\cms\templates\admin\cms\page\change_list_tree.html.py:12
+msgid "draft"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:96
+#: .\comments\templates\comments\form.html.py:20
+#: .\comments\templates\comments\preview.html.py:44
+msgid "Preview"
+msgstr "عرض"
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:99
+#: .\cms\templates\admin\cms\page\revision_form.html.py:10
+msgid "History"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:100
+msgid "View on site"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:130
+#: .\cms\templates\admin\cms\page\plugin_change_form.html.py:84
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:150
+msgid "All permissions"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:151
+#: .\cms\templates\admin\cms\page\change_form.html.py:163
+#: .\cms\templates\admin\cms\page\loading.html.py:2
+msgid "Loading..."
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:162
+msgid "Page states"
+msgstr "حالة الصفحة"
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:185
+#, python-format
+msgid "This page must be moderated at level %(moderation_level)s, post a message for moderator."
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_form.html.py:187
+msgid "Request approvemet"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list.html.py:3
+msgid "List of pages"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list.html.py:58
+msgid "Successfully moved"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list.html.py:63
+msgid "An error occured. Please reload the page"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list.html.py:84
+#, python-format
+msgid "Recover deleted %(name)s"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list.html.py:87
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list.html.py:99
+msgid "Pages on:"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list.html.py:116
+msgid "Filter:"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list.html.py:116
+msgid "on"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list.html.py:116
+msgid "off"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list.html.py:118
+msgid "Filter"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list_tree.html.py:8
+msgid "actions"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list_tree.html.py:10
+msgid "moderate"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list_tree.html.py:13
+msgid "published"
+msgstr "نشر"
+
+#: .\cms\templates\admin\cms\page\change_list_tree.html.py:15
+msgid "start"
+msgstr "ابدأ"
+
+#: .\cms\templates\admin\cms\page\change_list_tree.html.py:16
+msgid "end"
+msgstr "نهاية"
+
+#: .\cms\templates\admin\cms\page\change_list_tree.html.py:17
+msgid "restricted"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\change_list_tree.html.py:19
+msgid "last changes"
+msgstr "اخر تغير"
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:5
+msgid "select this page"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:5
+#: .\cms\templates\admin\cms\page\menu_item.html.py:6
+msgid "edit this page"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:6
+#: .\cms\templates\cms\toolbar\toolbar.html.py:54
+msgid "edit"
+msgstr "تعديل"
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:16
+msgid "insert above"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:17
+msgid "insert below"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:19
+msgid "insert inside"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:23
+msgid "softroot"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:23
+msgid "home"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:26
+#, python-format
+msgid "Edit this page in %(language)s "
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:33
+msgid "Cut"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:33
+msgid "cut"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:34
+msgid "Copy"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:34
+msgid "copy"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:37
+#: .\cms\templates\admin\cms\page\menu_item.html.py:41
+msgid "Add Child"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:37
+#: .\cms\templates\admin\cms\page\menu_item.html.py:41
+msgid "add"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:61
+msgid "Approve directly"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:63
+#: .\cms\templates\admin\cms\page\menu_item.html.py:75
+#: .\cms\templates\admin\cms\page\menu_item.html.py:77
+msgid "view"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:68
+msgid "Unpublish"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\menu_item.html.py:75
+msgid "View on page"
+msgstr "اظهر على الصفحة"
+
+#: .\cms\templates\admin\cms\page\moderation_messages.html.py:4
+msgid "Action"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\moderation_messages.html.py:5
+msgid "Created"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\moderation_messages.html.py:7
+#: .\userena\contrib\umessages\forms.py:11
+msgid "Message"
+msgstr "رسالة"
+
+#: .\cms\templates\admin\cms\page\permissions.html.py:7
+msgid "Group"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\permissions.html.py:8
+msgid "Can edit"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\permissions.html.py:9
+msgid "Can add"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\permissions.html.py:10
+msgid "Can delete"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\permissions.html.py:11
+msgid "Can publish"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\permissions.html.py:12
+msgid "Can change permissions"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\permissions.html.py:13
+msgid "Can move"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\permissions.html.py:14
+msgid "Can view"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\permissions.html.py:21
+#: .\cms\templates\admin\cms\page\permissions.html.py:22
+msgid "(global)"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\permissions.html.py:26
+msgid "(current)"
+msgstr "الحالى"
+
+#: .\cms\templates\admin\cms\page\permissions.html.py:43
+msgid "All"
+msgstr "الكل"
+
+#: .\cms\templates\admin\cms\page\permissions.html.py:51
+msgid "Page doesn't inherit any permissions."
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\plugin_change_form.html.py:114
+#: .\cms\templates\cms\toolbar\toolbar.html.py:24
+msgid "Cancel"
+msgstr "الغاء"
+
+#: .\cms\templates\admin\cms\page\plugin_forms_history.html.py:9
+msgid "An old revision of a plugin can not be saved!"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\plugin_forms_ok.html.py:21
+msgid "Plugin saved successfully."
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\recover_form.html.py:17
+#, python-format
+msgid "Recover deleted %(verbose_name)s"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\recover_form.html.py:24
+msgid "Press the save button below to recover this version of the object."
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\revision_form.html.py:11
+#, python-format
+msgid "Revert %(verbose_name)s"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\revision_form.html.py:24
+msgid "Press the save button below to revert to this version of the object."
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\dialog\copy.html.py:4
+msgid "Copy options"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\dialog\copy.html.py:6
+msgid "Choose copy options"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:7
+msgid "Generic"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:15
+msgid "Add Plugin"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:18
+msgid "From Language"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\widgets\installed_plugins_inc.html.py:25
+msgid "Copy Plugins"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\widgets\plugin_editor.html.py:12
+msgid "You must save the page first to add plugins."
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\widgets\plugin_editor.html.py:15
+msgid "No Plugin selected. Selected one on the left side"
+msgstr ""
+
+#: .\cms\templates\admin\cms\page\widgets\plugin_editor.html.py:17
+msgid "No Plugins present. Add a plugin to this placeholder-slot."
+msgstr ""
+
+#: .\cms\templates\cms\toolbar\placeholder.html.py:32
+msgid "Available plugins"
+msgstr ""
+
+#: .\cms\templates\cms\toolbar\toolbar.html.py:22
+msgid "The selected element can not be moved to the desired location."
+msgstr ""
+
+#: .\cms\templates\cms\toolbar\toolbar.html.py:23
+msgid "Are you sure you want to delete this plugin?"
+msgstr ""
+
+#: .\cms\templates\cms\toolbar\toolbar.html.py:55
+msgid "up"
+msgstr "اعلى"
+
+#: .\cms\templates\cms\toolbar\toolbar.html.py:56
+msgid "down"
+msgstr "اسفل"
+
+#: .\cms\templates\cms\toolbar\toolbar.html.py:61
+msgid "Move to placeholder"
+msgstr ""
+
+#: .\cms\templates\cms\toolbar\items\login.html.py:5
+#: .\userena\forms.py:30
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: .\cms\templates\cms\toolbar\items\login.html.py:10
+#: .\cms\templates\cms\toolbar\items\login.html.py:12
+msgid "Login"
+msgstr "دخول"
+
+#: .\cms\templates\cms\toolbar\items\status.html.py:2
+msgid "Status"
+msgstr "الحالة"
+
+#: .\cms\templates\cms\toolbar\items\switcher.html.py:4
+msgid "Switch on/off"
+msgstr ""
+
+#: .\cms\templatetags\cms_admin.py:87
+#: .\cms\templatetags\cms_admin.py:94
+#, python-format
+msgid "<span title=\"Restrictions: %(title)s\">%(icon)s</span>"
+msgstr ""
+
+#: .\cms\templatetags\cms_admin.py:107
+msgid "Unbind page moderation"
+msgstr ""
+
+#: .\cms\templatetags\cms_admin.py:108
+msgid "Unbind children moderation"
+msgstr ""
+
+#: .\cms\templatetags\cms_admin.py:109
+msgid "Unbind descendants moderation"
+msgstr ""
+
+#: .\cms\templatetags\cms_tags.py:78
+#, python-format
+msgid "Page not found on %(domain)s"
+msgstr ""
+
+#: .\cms\templatetags\cms_tags.py:79
+#, python-format
+msgid ""
+"A template tag couldn't find the page with lookup arguments `%(page_lookup)s\n"
+"`. The URL of the request was: http://%(host)s%(path)s"
+msgstr ""
+
+#: .\cms\utils\mail.py:38
+msgid "CMS - your user account was created."
+msgstr ""
+
+#: .\cms\utils\mail.py:40
+msgid "CMS - your user account was changed."
+msgstr ""
+
+#: .\cms\utils\moderator.py:83
+msgid "parent first"
+msgstr ""
+
+#: .\cms\utils\moderator.py:90
+msgid "approve"
+msgstr ""
+
+#: .\cms\utils\moderator.py:251
+#, python-format
+msgid "CMS - Page %s requires approvement."
+msgstr ""
+
+#: .\cmsplugin_comments\cms_plugins.py:10
+msgid "Comments"
+msgstr "التعليق"
+
+#: .\cmsplugin_poll\admin.py:8
+msgid "Close selected polls"
+msgstr ""
+
+#: .\cmsplugin_poll\cms_plugins.py:8
+msgid "Simple poll plugin"
+msgstr ""
+
+#: .\cmsplugin_poll\models.py:35
+msgid "Poll to display"
+msgstr ""
+
+#: .\cmsplugin_poll\views.py:23
+msgid "This poll is closed"
+msgstr ""
+
+#: .\cmsplugin_poll\views.py:25
+msgid "You already vote for this poll"
+msgstr "لقد قمت بالتصويت من قبل"
+
+#: .\cmsplugin_poll\views.py:30
+msgid "You didn't select a choice"
+msgstr ""
+
+#: .\cmsplugin_poll\views.py:34
+msgid "Thank you for your vote"
+msgstr ""
+
+#: .\cmsplugin_poll\templates\cmsplugin_poll\detail.html.py:3
+msgid "Poll"
+msgstr "تصويت"
+
+#: .\cmsplugin_poll\templates\cmsplugin_poll\detail.html.py:13
+msgid "Vote"
+msgstr "صوت"
+
+#: .\cmsplugin_poll\templates\cmsplugin_poll\latest_polls.html.py:2
+msgid "Previous polls"
+msgstr "الإستطلاعات السابقة"
+
+#: .\cmsplugin_poll\templates\cmsplugin_poll\latest_polls.html.py:10
+msgid "No polls are available."
+msgstr ""
+
+#: .\cmsplugin_poll\templates\cmsplugin_poll\results.html.py:4
+msgid "نتيحة التصويت"
+msgstr ""
+
+#: .\comments\admin.py:12
+msgid "Content"
+msgstr ""
+
+#: .\comments\admin.py:15
+msgid "Metadata"
+msgstr ""
+
+#: .\comments\admin.py:42
+msgid "flagged"
+msgid_plural "flagged"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: .\comments\admin.py:43
+msgid "Flag selected comments"
+msgstr ""
+
+#: .\comments\admin.py:48
+msgid "Approve selected comments"
+msgstr ""
+
+#: .\comments\admin.py:52
+msgid "removed"
+msgid_plural "removed"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: .\comments\admin.py:53
+msgid "Remove selected comments"
+msgstr ""
+
+#: .\comments\admin.py:65
+#, python-format
+msgid "1 comment was successfully %(action)s."
+msgid_plural "%(count)s comments were successfully %(action)s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: .\comments\feeds.py:13
+#, python-format
+msgid "%(site_name)s comments"
+msgstr ""
+
+#: .\comments\feeds.py:23
+#, python-format
+msgid "Latest comments on %(site_name)s"
+msgstr ""
+
+#: .\comments\forms.py:109
+#: .\userena\templates\userena\profile_detail.html.py:47
+#: .\users\models.py:8
+#: .\users\models.py:17
+#: .\users\models.py:28
+#: .\users\models.py:39
+msgid "Name"
+msgstr ""
+
+#: .\comments\forms.py:110
+msgid "Email address"
+msgstr "البريد الالكترونى"
+
+#: .\comments\forms.py:111
+msgid "URL"
+msgstr ""
+
+#: .\comments\forms.py:112
+msgid "Comment"
+msgstr ""
+
+#: .\comments\forms.py:191
+#, python-format
+msgid "Watch your mouth! The word %s is not allowed here."
+msgid_plural "Watch your mouth! The words %s are not allowed here."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: .\comments\forms.py:198
+msgid "If you enter anything in this field your comment will be treated as spam"
+msgstr ""
+
+#: .\comments\models.py:22
+msgid "content type"
+msgstr ""
+
+#: .\comments\models.py:24
+msgid "object ID"
+msgstr ""
+
+#: .\comments\models.py:52
+msgid "user's name"
+msgstr "اسم المستخدم"
+
+#: .\comments\models.py:53
+msgid "user's email address"
+msgstr ""
+
+#: .\comments\models.py:54
+msgid "user's URL"
+msgstr ""
+
+#: .\comments\models.py:56
+#: .\comments\models.py:76
+#: .\comments\models.py:169
+msgid "comment"
+msgstr ""
+
+#: .\comments\models.py:59
+msgid "date/time submitted"
+msgstr ""
+
+#: .\comments\models.py:60
+msgid "IP address"
+msgstr ""
+
+#: .\comments\models.py:61
+msgid "is public"
+msgstr "عام"
+
+#: .\comments\models.py:62
+msgid "Uncheck this box to make the comment effectively disappear from the site."
+msgstr ""
+
+#: .\comments\models.py:64
+msgid "is removed"
+msgstr "يتم الحذف"
+
+#: .\comments\models.py:65
+msgid "Check this box if the comment is inappropriate. A \"This comment has been removed\" message will be displayed instead."
+msgstr ""
+
+#: .\comments\models.py:77
+msgid "comments"
+msgstr ""
+
+#: .\comments\models.py:119
+msgid "This comment was posted by an authenticated user and thus the name is read-only."
+msgstr ""
+
+#: .\comments\models.py:128
+msgid "This comment was posted by an authenticated user and thus the email is read-only."
+msgstr ""
+
+#: .\comments\models.py:153
+#, python-format
+msgid ""
+"Posted by %(user)s at %(date)s\n"
+"\n"
+"%(comment)s\n"
+"\n"
+"http://%(domain)s%(url)s"
+msgstr ""
+
+#: .\comments\models.py:170
+msgid "flag"
+msgstr ""
+
+#: .\comments\models.py:171
+msgid "date"
+msgstr "التاريخ"
+
+#: .\comments\models.py:181
+msgid "comment flag"
+msgstr ""
+
+#: .\comments\models.py:182
+msgid "comment flags"
+msgstr ""
+
+#: .\comments\templates\comments\approve.html.py:4
+msgid "Approve a comment"
+msgstr ""
+
+#: .\comments\templates\comments\approve.html.py:7
+msgid "Really make this comment public?"
+msgstr ""
+
+#: .\comments\templates\comments\approved.html.py:4
+msgid "Thanks for approving"
+msgstr ""
+
+#: .\comments\templates\comments\approved.html.py:7
+#: .\comments\templates\comments\deleted.html.py:7
+#: .\comments\templates\comments\flagged.html.py:7
+msgid "Thanks for taking the time to improve the quality of discussion on our site"
+msgstr ""
+
+#: .\comments\templates\comments\cms-comment.html.py:56
+msgid "Comments for this discussion is disabled"
+msgstr ""
+
+#: .\comments\templates\comments\delete.html.py:4
+msgid "Remove a comment"
+msgstr ""
+
+#: .\comments\templates\comments\delete.html.py:7
+msgid "Really remove this comment?"
+msgstr ""
+
+#: .\comments\templates\comments\delete.html.py:12
+msgid "Remove"
+msgstr ""
+
+#: .\comments\templates\comments\deleted.html.py:4
+msgid "Thanks for removing"
+msgstr ""
+
+#: .\comments\templates\comments\flag.html.py:4
+msgid "Flag this comment"
+msgstr ""
+
+#: .\comments\templates\comments\flag.html.py:7
+msgid "Really flag this comment?"
+msgstr ""
+
+#: .\comments\templates\comments\flag.html.py:12
+msgid "Flag"
+msgstr ""
+
+#: .\comments\templates\comments\flagged.html.py:4
+msgid "Thanks for flagging"
+msgstr ""
+
+#: .\comments\templates\comments\form.html.py:19
+#: .\comments\templates\comments\preview.html.py:43
+msgid "Post"
+msgstr ""
+
+#: .\comments\templates\comments\posted.html.py:15
+msgid "Thank you for your comment"
+msgstr ""
+
+#: .\comments\templates\comments\preview.html.py:6
+#: .\comments\templates\comments\preview.html.py:24
+msgid "Preview your comment"
+msgstr ""
+
+#: .\comments\templates\comments\preview.html.py:22
+msgid "Please correct the error below"
+msgid_plural "Please correct the errors below"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: .\comments\templates\comments\preview.html.py:27
+msgid "and"
+msgstr ""
+
+#: .\comments\templates\comments\preview.html.py:27
+msgid "Post your comment"
+msgstr ""
+
+#: .\comments\templates\comments\preview.html.py:27
+msgid "or make changes"
+msgstr ""
+
+#: .\events\cms_plugins.py:9
+#: .\events\models.py:47
+msgid "Event"
+msgstr ""
+
+#: .\events\cms_plugins.py:26
+msgid "Featured News"
+msgstr "الأخبار المميزة"
+
+#: .\events\models.py:12
+msgid "Full name "
+msgstr "الاسم الكامل"
+
+#: .\events\models.py:14
+#: .\events\models.py:32
+msgid "Description"
+msgstr ""
+
+#: .\events\models.py:15
+#: .\events\models.py:33
+msgid "Short description "
+msgstr ""
+
+#: .\events\models.py:21
+msgid "Category "
+msgstr ""
+
+#: .\events\models.py:23
+msgid "Category"
+msgstr ""
+
+#: .\events\models.py:24
+msgid "Categories"
+msgstr "تصنيف الأحداث"
+
+#: .\events\models.py:30
+msgid "news title"
+msgstr ""
+
+#: .\events\models.py:31
+msgid "Where ?"
+msgstr "أين"
+
+#: .\events\models.py:39
+msgid "start_time"
+msgstr ""
+
+#: .\events\models.py:40
+msgid "end_time"
+msgstr ""
+
+#: .\events\models.py:41
+msgid "Tags"
+msgstr ""
+
+#: .\events\models.py:48
+msgid "Events"
+msgstr "الأحداث"
+
+#: .\events\models.py:64
+msgid "External link"
+msgstr ""
+
+#: .\events\models.py:64
+msgid "External link if present it will be used either than internal page"
+msgstr ""
+
+#: .\events\models.py:66
+msgid "Header"
+msgstr ""
+
+#: .\events\models.py:67
+msgid "short description"
+msgstr ""
+
+#: .\events\models.py:67
+msgid "short description of the image"
+msgstr ""
+
+#: .\events\models.py:72
+#: .\events\models.py:73
+msgid "feautred News"
+msgstr "الأخبار المميزة"
+
+#: .\events\templates\events\index.html.py:29
+msgid "فى"
+msgstr ""
+
+#: .\events\templates\events\index.html.py:31
+msgid "إلى"
+msgstr ""
+
+#: .\sampleapp\cms_app.py:7
+msgid "Sample App"
+msgstr ""
+
+#: .\sampleapp\menu.py:17
+msgid "sample root page"
+msgstr ""
+
+#: .\sampleapp\menu.py:18
+msgid "sample settings page"
+msgstr ""
+
+#: .\sampleapp\menu.py:19
+msgid "sample account page"
+msgstr ""
+
+#: .\sampleapp\menu.py:20
+msgid "sample my profile page"
+msgstr ""
+
+#: .\sampleapp\menu.py:32
+msgid "Static Menu"
+msgstr ""
+
+#: .\sampleapp\menu.py:48
+msgid "Static Menu2"
+msgstr ""
+
+#: .\userena\forms.py:31
+msgid "Username must contain only letters, numbers, dots and underscores."
+msgstr ""
+
+#: .\userena\forms.py:34
+#: .\userena\forms.py:219
+#: .\userena\templates\userena\profile_detail.html.py:56
+msgid "Email"
+msgstr "البريد الإلكترونى"
+
+#: .\userena\forms.py:37
+msgid "Create password"
+msgstr "كلمة السر"
+
+#: .\userena\forms.py:40
+msgid "Repeat password"
+msgstr "كرر كلمة السر"
+
+#: .\userena\forms.py:54
+msgid "This username is already taken."
+msgstr ""
+
+#: .\userena\forms.py:56
+msgid "This username is not allowed."
+msgstr ""
+
+#: .\userena\forms.py:62
+#: .\userena\forms.py:261
+msgid "This email is already in use. Please supply a different email."
+msgstr ""
+
+#: .\userena\forms.py:74
+msgid "The two password fields didn't match."
+msgstr ""
+
+#: .\userena\forms.py:120
+msgid "I have read and agree to the Terms of Service"
+msgstr ""
+
+#: .\userena\forms.py:121
+msgid "You must agree to the terms to register."
+msgstr ""
+
+#: .\userena\forms.py:136
+#: .\userena\forms.py:275
+msgid "First name"
+msgstr "الاسم الأول"
+
+#: .\userena\forms.py:137
+msgid "Middle name"
+msgstr "اسم الوالد"
+
+#: .\userena\forms.py:138
+#: .\userena\forms.py:278
+msgid "Last name"
+msgstr "اسم العائلة"
+
+#: .\userena\forms.py:139
+msgid "mobile"
+msgstr "رقم الموبايل"
+
+#: .\userena\forms.py:140
+#: .\users\models.py:70
+msgid "Gender"
+msgstr ""
+
+#: .\userena\forms.py:143
+#: .\users\models.py:71
+msgid "Monthly payment"
+msgstr "الإشتراك الشهرى"
+
+#: .\userena\forms.py:149
+msgid "Please choose valid choice"
+msgstr ""
+
+#: .\userena\forms.py:197
+#, python-format
+msgid "%(label)s"
+msgstr ""
+
+#: .\userena\forms.py:200
+#, python-format
+msgid "%(error)s"
+msgstr ""
+
+#: .\userena\forms.py:207
+msgid "Email or username"
+msgstr "البريد الاكترونى"
+
+#: .\userena\forms.py:208
+msgid "Either supply us with your email or username."
+msgstr ""
+
+#: .\userena\forms.py:213
+#, python-format
+msgid "Remember me for %(days)s"
+msgstr ""
+
+#: .\userena\forms.py:220
+msgid "Please supply your email."
+msgstr ""
+
+#: .\userena\forms.py:235
+msgid "Please enter a correct username or email and password. Note that both fields are case-sensitive."
+msgstr ""
+
+#: .\userena\forms.py:241
+#: .\userena\templates\layout.html.py:6
+#: .\userena\templates\userena\email_confirm_complete.html.py:6
+msgid "New email"
+msgstr "ايميل جديد"
+
+#: .\userena\forms.py:259
+#, fuzzy
+msgid "You're already known under this email."
+msgstr "لقد قمت بالتصويت من قبل"
+
+#: .\userena\managers.py:232
+#, python-format
+msgid "No profile found for %(username)s"
+msgstr ""
+
+#: .\userena\models.py:49
+msgid "last active"
+msgstr "اسم العائلة"
+
+#: .\userena\models.py:52
+msgid "The last date that the user was active."
+msgstr ""
+
+#: .\userena\models.py:54
+msgid "activation key"
+msgstr "مفتاح التفعيل"
+
+#: .\userena\models.py:58
+msgid "notification send"
+msgstr ""
+
+#: .\userena\models.py:60
+msgid "Designates whether this user has already got a notification about activating their account."
+msgstr ""
+
+#: .\userena\models.py:62
+msgid "unconfirmed email address"
+msgstr ""
+
+#: .\userena\models.py:64
+msgid "Temporary email address when the user requests an email change."
+msgstr ""
+
+#: .\userena\models.py:66
+msgid "unconfirmed email verification key"
+msgstr ""
+
+#: .\userena\models.py:70
+msgid "creation date of email confirmation key"
+msgstr ""
+
+#: .\userena\models.py:78
+msgid "userena registration"
+msgstr ""
+
+#: .\userena\models.py:79
+msgid "userena registrations"
+msgstr ""
+
+#: .\userena\models.py:201
+msgid "Open"
+msgstr "مفتوح"
+
+#: .\userena\models.py:202
+msgid "Registered"
+msgstr "تم التسجيل"
+
+#: .\userena\models.py:203
+msgid "Closed"
+msgstr "مغلق"
+
+#: .\userena\models.py:210
+msgid "mugshot"
+msgstr ""
+
+#: .\userena\models.py:214
+msgid "A personal image displayed in your profile."
+msgstr ""
+
+#: .\userena\models.py:216
+msgid "privacy"
+msgstr ""
+
+#: .\userena\models.py:220
+msgid "Designates who can view your profile."
+msgstr ""
+
+#: .\userena\models.py:299
+#, python-format
+msgid "%(first_name)s %(last_name)s"
+msgstr ""
+
+#: .\userena\settings.py:39
+msgid "a month"
+msgstr "شهر"
+
+#: .\userena\views.py:130
+msgid "Your account has been activated and you have been signed in."
+msgstr ""
+
+#: .\userena\views.py:289
+msgid "You have been signed in."
+msgstr ""
+
+#: .\userena\views.py:504
+msgid "Your profile has been updated."
+msgstr ""
+
+#: .\userena\views.py:543
+msgid "You don't have permission to view this profile."
+msgstr ""
+
+#: .\userena\contrib\umessages\admin.py:25
+msgid "Date/time"
+msgstr ""
+
+#: .\userena\contrib\umessages\fields.py:56
+#, python-format
+msgid "The following usernames are incorrect: %(users)s."
+msgstr ""
+
+#: .\userena\contrib\umessages\forms.py:10
+msgid "To"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:17
+msgid "from user"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:20
+msgid "to user"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:24
+msgid "latest message"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:31
+msgid "contact"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:32
+msgid "contacts"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:35
+#, python-format
+msgid "%(from_user)s and %(to_user)s"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:61
+#: .\userena\contrib\umessages\models.py:77
+msgid "recipient"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:64
+#: .\userena\contrib\umessages\models.py:112
+msgid "message"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:66
+msgid "read at"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:70
+msgid "recipient deleted at"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:78
+#: .\userena\contrib\umessages\models.py:99
+msgid "recipients"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:81
+#, python-format
+msgid "%(message)s"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:94
+msgid "sender"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:101
+msgid "sent at"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:104
+msgid "sender deleted at"
+msgstr ""
+
+#: .\userena\contrib\umessages\models.py:113
+msgid "messages"
+msgstr ""
+
+#: .\userena\contrib\umessages\views.py:179
+msgid "Message is sent."
+msgstr ""
+
+#: .\userena\contrib\umessages\views.py:263
+msgid "Message is succesfully restored."
+msgid_plural "Messages are succesfully restored."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: .\userena\contrib\umessages\views.py:267
+msgid "Message is successfully removed."
+msgid_plural "Messages are successfully removed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: .\userena\contrib\umessages\templates\umessages\message_form.html.py:4
+msgid "Compose"
+msgstr ""
+
+#: .\userena\contrib\umessages\templates\umessages\message_form.html.py:10
+msgid "Compose message"
+msgstr ""
+
+#: .\userena\contrib\umessages\templates\umessages\message_form.html.py:13
+msgid "Send"
+msgstr ""
+
+#: .\userena\templates\layout.html.py:4
+#: .\userena\templates\userena\email_confirm_complete.html.py:4
+msgid "Email changed!"
+msgstr "تم تغير الايميل!"
+
+#: .\userena\templates\layout.html.py:8
+#: .\userena\templates\userena\email_confirm_complete.html.py:8
+msgid "Your new email address is saved. You can continue using userena with this email."
+msgstr ""
+
+#: .\userena\templates\userena\activate_fail.html.py:4
+msgid "Account activation failed."
+msgstr ""
+
+#: .\userena\templates\userena\activate_fail.html.py:5
+msgid "Your account could not be activated.."
+msgstr ""
+
+#: .\userena\templates\userena\activate_fail.html.py:8
+msgid "Your account could not be activated. This could be because your activation link has aged."
+msgstr ""
+
+#: .\userena\templates\userena\activate_fail.html.py:9
+msgid "Please try signing up again or contact us if you think something went wrong."
+msgstr ""
+
+#: .\userena\templates\userena\disabled.html.py:4
+msgid "Disabled account"
+msgstr ""
+
+#: .\userena\templates\userena\disabled.html.py:5
+msgid "Your account has been disabled"
+msgstr ""
+
+#: .\userena\templates\userena\disabled.html.py:7
+msgid "It seems your account has been disabled."
+msgstr ""
+
+#: .\userena\templates\userena\disabled.html.py:8
+msgid "If you feel that injustice has been done to you, feel free to contact the administrators to find out why"
+msgstr ""
+
+#: .\userena\templates\userena\email_change_complete.html.py:4
+msgid "Email verification"
+msgstr ""
+
+#: .\userena\templates\userena\email_change_complete.html.py:5
+msgid "Confirm your new email"
+msgstr "تأكيد الايميل الجديد"
+
+#: .\userena\templates\userena\email_change_complete.html.py:8
+#, python-format
+msgid "You have received an email at %(email)s."
+msgstr ""
+
+#: .\userena\templates\userena\email_change_complete.html.py:9
+#, python-format
+msgid "To associate this email address with your account (%(username)s) click on the link provided in this email."
+msgstr ""
+
+#: .\userena\templates\userena\email_confirm_fail.html.py:4
+msgid "Email verification failed."
+msgstr "لم يتم التحقيق من الايميل"
+
+#: .\userena\templates\userena\email_confirm_fail.html.py:5
+msgid "Your email could not be verified.."
+msgstr "لا يمكن التحقيق من الايميل"
+
+#: .\userena\templates\userena\email_confirm_fail.html.py:8
+msgid "Your email could not be verified..."
+msgstr ""
+
+#: .\userena\templates\userena\email_confirm_fail.html.py:9
+msgid "You could try changing it again in your account settings."
+msgstr ""
+
+#: .\userena\templates\userena\email_form.html.py:4
+#: .\userena\templates\userena\password_form.html.py:6
+#: .\userena\templates\userena\profile_form.html.py:6
+#, python-format
+msgid "Account &raquo; %(username)s"
+msgstr ""
+
+#: .\userena\templates\userena\email_form.html.py:9
+#: .\userena\templates\userena\password_form.html.py:11
+#: .\userena\templates\userena\profile_detail.html.py:11
+#: .\userena\templates\userena\profile_detail.html.py:36
+#: .\userena\templates\userena\profile_form.html.py:12
+msgid "View profile"
+msgstr ""
+
+#: .\userena\templates\userena\email_form.html.py:10
+#: .\userena\templates\userena\password_form.html.py:12
+#: .\userena\templates\userena\profile_form.html.py:13
+msgid "Edit profile"
+msgstr ""
+
+#: .\userena\templates\userena\email_form.html.py:11
+#: .\userena\templates\userena\password_form.html.py:4
+#: .\userena\templates\userena\password_form.html.py:13
+#: .\userena\templates\userena\password_form.html.py:21
+#: .\userena\templates\userena\profile_detail.html.py:38
+#: .\userena\templates\userena\profile_form.html.py:14
+msgid "Change password"
+msgstr ""
+
+#: .\userena\templates\userena\email_form.html.py:12
+#: .\userena\templates\userena\email_form.html.py:19
+#: .\userena\templates\userena\password_form.html.py:14
+#: .\userena\templates\userena\profile_detail.html.py:39
+#: .\userena\templates\userena\profile_form.html.py:15
+msgid "Change email"
+msgstr ""
+
+#: .\userena\templates\userena\email_form.html.py:16
+msgid "Change email address"
+msgstr ""
+
+#: .\userena\templates\userena\password_complete.html.py:4
+msgid "Password changed"
+msgstr ""
+
+#: .\userena\templates\userena\password_complete.html.py:5
+msgid "Your password has been changed"
+msgstr "كلمة السر قد تغيرت"
+
+#: .\userena\templates\userena\password_complete.html.py:8
+msgid "From now on you can use your new password to signin"
+msgstr ""
+
+#: .\userena\templates\userena\password_form.html.py:17
+msgid "Change Password"
+msgstr "تغير كلمة السر"
+
+#: .\userena\templates\userena\password_reset_complete.html.py:4
+msgid "Password reset"
+msgstr ""
+
+#: .\userena\templates\userena\password_reset_complete.html.py:5
+msgid "Your password has been reset"
+msgstr ""
+
+#: .\userena\templates\userena\password_reset_complete.html.py:7
+msgid "You can now "
+msgstr "تستطيع الان"
+
+#: .\userena\templates\userena\password_reset_complete.html.py:7
+msgid "signin"
+msgstr "الدخول"
+
+#: .\userena\templates\userena\password_reset_complete.html.py:7
+msgid "with your new password."
+msgstr "بكلمة سر جديدة"
+
+#: .\userena\templates\userena\password_reset_confirm_form.html.py:4
+#: .\userena\templates\userena\password_reset_confirm_form.html.py:13
+#: .\userena\templates\userena\password_reset_form.html.py:4
+msgid "Reset password"
+msgstr ""
+
+#: .\userena\templates\userena\password_reset_confirm_form.html.py:9
+#: .\userena\templates\userena\password_reset_form.html.py:9
+msgid "Reset Password"
+msgstr ""
+
+#: .\userena\templates\userena\password_reset_done.html.py:4
+#: .\userena\templates\userena\password_reset_done.html.py:5
+msgid "Reset password email is send"
+msgstr ""
+
+#: .\userena\templates\userena\password_reset_done.html.py:8
+msgid "An e-mail has been send to you which explains how to reset your password."
+msgstr ""
+
+#: .\userena\templates\userena\password_reset_form.html.py:13
+msgid "Send password"
+msgstr "ارسل كلمة سر"
+
+#: .\userena\templates\userena\profile_detail.html.py:4
+#, python-format
+msgid "%(username)s's profile."
+msgstr ""
+
+#: .\userena\templates\userena\profile_detail.html.py:13
+msgid "Log out "
+msgstr "خروج"
+
+#: .\userena\templates\userena\profile_detail.html.py:37
+msgid "Edit details"
+msgstr ""
+
+#: .\userena\templates\userena\profile_detail.html.py:44
+msgid "Your mugshot"
+msgstr ""
+
+#: .\userena\templates\userena\profile_detail.html.py:50
+msgid "team"
+msgstr "الفريق"
+
+#: .\userena\templates\userena\profile_detail.html.py:53
+#: .\users\models.py:74
+msgid "Mobile"
+msgstr "الموبيل"
+
+#: .\userena\templates\userena\profile_detail.html.py:59
+#: .\users\models.py:73
+msgid "Age"
+msgstr "العمر"
+
+#: .\userena\templates\userena\profile_detail.html.py:62
+msgid "Website"
+msgstr ""
+
+#: .\userena\templates\userena\profile_detail.html.py:65
+msgid "Location"
+msgstr "المكان"
+
+#: .\userena\templates\userena\profile_detail.html.py:68
+msgid "About me"
+msgstr "عنى"
+
+#: .\userena\templates\userena\profile_form.html.py:4
+msgid "Account setup"
+msgstr ""
+
+#: .\userena\templates\userena\profile_form.html.py:19
+msgid "Edit Profile"
+msgstr "تعديل الملف"
+
+#: .\userena\templates\userena\profile_form.html.py:22
+msgid "Save changes"
+msgstr "حفظ المتغيرات"
+
+#: .\userena\templates\userena\profile_list.html.py:4
+#: .\users\models.py:85
+msgid "Profiles"
+msgstr "الأعضاء"
+
+#: .\userena\templates\userena\profile_list.html.py:21
+#, fuzzy
+msgid "previous"
+msgstr "الإستطلاعات السابقة"
+
+#: .\userena\templates\userena\profile_list.html.py:25
+#, python-format
+msgid ""
+"\n"
+"      Page %(page)s of %(num_pages)s\n"
+"      "
+msgstr ""
+
+#: .\userena\templates\userena\profile_list.html.py:31
+msgid "next"
+msgstr "التالى"
+
+#: .\userena\templates\userena\signin_form.html.py:5
+#: .\userena\templates\userena\signin_form.html.py:29
+msgid "Signin"
+msgstr "دخول"
+
+#: .\userena\templates\userena\signin_form.html.py:30
+msgid "Forgot your password?"
+msgstr "نسيت كلمة السر؟"
+
+#: .\userena\templates\userena\signout.html.py:4
+msgid "Signed out"
+msgstr "خروج"
+
+#: .\userena\templates\userena\signout.html.py:5
+msgid "You have been signed out"
+msgstr "تم الخروج"
+
+#: .\userena\templates\userena\signout.html.py:8
+msgid "You have been signed out. Till we meet again."
+msgstr ""
+
+#: .\userena\templates\userena\signup_complete.html.py:4
+msgid "Signup almost done!"
+msgstr ""
+
+#: .\userena\templates\userena\signup_complete.html.py:6
+#: .\userena\templates\userena\signup_form.html.py:4
+#: .\userena\templates\userena\signup_form.html.py:78
+msgid "Signup"
+msgstr ""
+
+#: .\userena\templates\userena\signup_complete.html.py:9
+msgid "Thank you for signing up with us!"
+msgstr ""
+
+#: .\userena\templates\userena\signup_complete.html.py:12
+msgid "You have been send an e-mail with an activation link to the supplied email."
+msgstr ""
+
+#: .\userena\templates\userena\signup_complete.html.py:13
+msgid ""
+"We will store your signup information for {{\n"
+"  userena_activation_days }} days on our server. "
+msgstr ""
+
+#: .\userena\templates\userena\signup_complete.html.py:16
+msgid "You can now use the supplied credentials to signin."
+msgstr ""
+
+#: .\userena\tests\profile.py:6
+#: .\userena\tests\profiles\models.py:12
+msgid "Male"
+msgstr "ذكر"
+
+#: .\userena\tests\profile.py:7
+#: .\userena\tests\profiles\models.py:13
+msgid "Female"
+msgstr "انثى"
+
+#: .\userena\tests\profile.py:9
+#: .\userena\tests\profiles\models.py:21
+msgid "gender"
+msgstr "النوع"
+
+#: .\userena\tests\profile.py:13
+#: .\userena\tests\profiles\models.py:25
+msgid "website"
+msgstr ""
+
+#: .\userena\tests\profile.py:14
+#: .\userena\tests\profiles\models.py:26
+msgid "location"
+msgstr ""
+
+#: .\userena\tests\profile.py:15
+#: .\userena\tests\profiles\models.py:27
+msgid "about me"
+msgstr ""
+
+#: .\users\models.py:10
+#: .\users\models.py:18
+msgid "Country"
+msgstr "دولة"
+
+#: .\users\models.py:11
+msgid "Countries"
+msgstr "الدول"
+
+#: .\users\models.py:19
+#: .\users\models.py:30
+#: .\users\models.py:40
+msgid "Featured"
+msgstr ""
+
+#: .\users\models.py:21
+#: .\users\models.py:29
+msgid "Governorate"
+msgstr "محافظة"
+
+#: .\users\models.py:22
+msgid "Governorates"
+msgstr "المحافظات"
+
+#: .\users\models.py:32
+#: .\users\models.py:44
+msgid "City"
+msgstr "مدينة"
+
+#: .\users\models.py:33
+msgid "Cities"
+msgstr "مدن"
+
+#: .\users\models.py:41
+msgid "Address"
+msgstr "العنوان"
+
+#: .\users\models.py:43
+msgid "Contact"
+msgstr ""
+
+#: .\users\models.py:46
+#: .\users\models.py:79
+msgid "Team"
+msgstr "عشيرة"
+
+#: .\users\models.py:47
+msgid "Teams"
+msgstr "العشائر"
+
+#: .\users\models.py:59
+msgid "male"
+msgstr "ذكر"
+
+#: .\users\models.py:60
+msgid "female"
+msgstr "انثى"
+
+#: .\users\models.py:69
+msgid "middle_name"
+msgstr "الاسم الاوسط"
+
+#: .\users\models.py:74
+msgid "  Mobile number Ex: 01112345678"
+msgstr ""
+
+#: .\users\models.py:75
+msgid "Telephone 2"
+msgstr ""
+
+#: .\users\models.py:75
+msgid "anther telephone "
+msgstr ""
+
+#: .\users\models.py:76
+msgid "Facebook"
+msgstr ""
+
+#: .\users\models.py:78
+msgid "Interests"
+msgstr ""
+
+#: .\users\models.py:78
+msgid "Describe your interests"
+msgstr ""
+
+#: .\users\models.py:84
+msgid "Profile"
+msgstr ""
+

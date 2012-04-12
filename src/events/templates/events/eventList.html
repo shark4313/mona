@@ -1,0 +1,40 @@
+﻿{% extends "index.html" %}
+{%load thumbnail  %}
+
+
+  {%block center-col%}
+  
+  
+<h3>
+احدث المؤتمرات
+</h3>
+
+
+   <ul class="list3">
+{% for event in contacts.object_list %}
+
+   <li> <img src="{% thumbnail event.image 170x100 %}"  />  
+     <b>      <a href="{{ event.get_absolute_url }}">{{ event.title|upper }}</a></b>
+          {{ event.short_description}} 
+  </li>
+   
+{% endfor %}
+</ul>
+<div class="pagination">
+    <span class="step-links">
+        {% if contacts.has_previous %}
+            <a href="?page={{ contacts.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ contacts.number }} of {{ contacts.paginator.num_pages }}.
+        </span>
+
+        {% if contacts.has_next %}
+            <a href="?page={{ contacts.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>
+
+
+  {%endblock center-col%}

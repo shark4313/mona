@@ -1,0 +1,16 @@
+{% load thumbnail %}
+  <div class="slider-wrapper theme-default">
+        <div id="slider" class="nivoSlider"> 
+            {% for instance in LatestFeaturedNews %}
+                <div class="slide">
+                    <img src="{% thumbnail instance.image 1050x250 %}" alt=""  title  ="#htmlcaption{{instance.id}}"   /> </a>
+                </div>
+            {% endfor%} 
+        </div>
+         {% for instance in LatestFeaturedNews %}
+          <div id="htmlcaption{{instance.id}}" class="nivo-html-caption">
+            <a href="{{instance.link}}" > <div class="slider_header" > {{instance.header}}  </div></a>
+           <div class="slider_description" >  {{  instance.shortDescription}}  </div>
+        </div>
+        {% endfor %}
+    </div>

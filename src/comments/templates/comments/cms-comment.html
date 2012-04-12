@@ -1,0 +1,58 @@
+﻿
+
+{% load comments i18n %}
+
+<style>
+  .errorlist  li{   color:red ; margin-top 15px;} 
+    #comment_fields input {  float:left; width:50% ;}
+    .comment textarea{margin-bottom:10px; height : 65px; float:left ;  width:100% ;}
+    .comment p{   margin-top: 5px;margin-bottom: 5px;} 
+    .comment h1{   margin-top: 5px;margin-bottom: 5px; font-size:16px;}  
+   .comment { width: 500px;}
+   .submit {
+   padding : 5px;
+   display : block ;
+    margin: 5px ;
+    
+   }
+   #id_comments_list{
+   padding:10px;
+   padding-top:20px;
+   }
+  #id_comments_list  dd{
+   font-size: 120%;
+    color : black ;
+   }
+   #id_comments_list dt{
+   color : #111
+   }
+  #id_comments_list h3{
+   padding-top :10px;
+   }
+</style>
+
+<h3> {{ instance.title }}  </h3>
+{% if enabled %}
+
+   <div class="comment" >
+{% render_comment_form for instance %}
+
+</div>
+
+<br/>
+
+<div id="id_comments_list">
+
+{% get_comment_count for instance as comment_count %}
+
+<h3>   {{ comment_count  }} تغليقات .</h3>
+
+
+{% render_comment_list for instance %}
+</div>
+
+{%else%}
+
+{%trans "Comments for this discussion is disabled"%}
+
+{%endif %}
